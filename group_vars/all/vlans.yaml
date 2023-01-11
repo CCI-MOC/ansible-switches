@@ -1,17 +1,281 @@
----
 vlans:
-  100:
-    name: "VLAN 100"
-    description: "This is the description of example vlan 100"
+  10:
+    name: "CSAIL-MAIN"
+    description: "Openstack public facing services (horizon, keystone)"
     switches:
-      - oct_tors
-  101:
-    name: "VLAN 101"
-    description: "This is the description of example vlan 101"
+      - oct_data
+  57:
+    name: "UMA-57"
+    description: "UMass VLAN 57 Public IPs for Chameleon"
     switches:
-      - oct_tors
-  102:
-    name: "VLAN 102"
-    description: "hello world"
+      - oct_data
+  84:
+    name: "UMA-84"
+    description: "UMass VLAN 84 Public IPs for CloudLab"
     switches:
-      - oct_tors
+      - oct_data
+  86:
+    name: "UMA-86"
+    description: "UMass VLAN 86 Public IPs for Fabric"
+  105:
+    name: "MOC-BU-PUBLIC"
+    description: "Public IPs from BU"
+    switches:
+      - oct_data
+  127:
+    name: "MOC-NEU-PUBLIC"
+    description: "NEU Public IP for infrastructure"
+    switches:
+      - oct_data
+  201:
+    name: "MOC-FOREMAN"
+    description: "Foreman Provisioning. SNMP for OpenStack and Ceph"
+    switches:
+      - oct_data
+  202:
+    name: "MOC-OPENSTACK-INTERNAL"
+    description: "OpenStack internal API"
+    switches:
+  203:
+    name: "MOC-OPENSTACK-TENANT"
+    description: "OpenStack tenant network"
+    switches:
+  204:
+    name: "MOC-GENERAL"
+    description: "Intranet (routable to internet). SNMP for client nodes."
+    switches:
+      - oct_data
+  205:
+    name: "MOC-GLUSTER"
+    description: "Gluster/VM migration - oVirt"
+    switches:
+  206:
+    name: "MOC-OPENSTACK-ISOLATION"
+    description: "OStack isolation native vlan for trunk only ports"
+    switches:
+  207:
+    name: "MOC-SWITCH-MGMT"
+    description: "For OCT/UMass Switch Management"
+    switches:
+      - oct_data
+      - oct_mgmt
+  208:
+    name: "ESI-CONTROL-PLANE"
+    description: "ESI control plane"
+    switches:
+      - oct_data
+  209:
+    name: "OCP-PROD-PROVISIONING"
+    description: "Openshift Internal (Baremetal 4.x)"
+    switches:
+      - oct_data
+  210:
+    name: "MOC-NFS-ZERO-CLUSTER"
+    description: "NFS for zero cluster"
+    switches:
+      - oct_data
+  211:
+    name: "MOC-NESE"
+    description: "New England Storage Exchange (NESE)"
+    switches:
+      - oct_data
+  212:
+    name: "OCP-STAGING-INTERNAL"
+    description: "Openshift Staging Internal (ocp-staging)"
+    switches:
+  213:
+    name: "MOC-PROD-CEPH-ISCSI"
+    description: "Ceph Cluster iSCSI"
+    switches:
+      - oct_data
+  249:
+    name: "CEPH-INTERNAL"
+    description: "Ceph Cluster (internal)"
+    switches:
+  250:
+    name: "MOC-PROD-CEPH"
+    description: "Ceph public (for clients)"
+    switches:
+      - oct_data
+  252:
+    name: "MOC-RESEARCH-CEPH"
+    description: "****"
+    switches:
+      - oct_data
+  259:
+    name: "STAGING-FOREMAN"
+    description: "Staging - Foreman"
+    switches:
+  267:
+    name: "MOC-RESEARCH-CEPH-EXTRA"
+    description: "****"
+    switches:
+      - oct_data
+  270:
+    name: "STAGING-INTERNAL"
+    description: "Staging - Internal API"
+    switches:
+  271:
+    name: "STAGING-TENANT"
+    description: "Staging - Tenant Network"
+    switches:
+  272:
+    name: "STAGING-PUBLIC"
+    description: "Staging - Public Network"
+    switches:
+  273:
+    name: "STAGING-OSSTACK"
+    description: "Staging - OS Stack isolation for trunk only ports"
+    switches:
+  277:
+    name: "MOC-MAAS"
+    description: "****"
+    switches:
+      - oct_data
+  280:
+    name: "MOC-MAAS-NIC1"
+    description: "****"
+    switches:
+      - oct_data
+  300:
+    name: "UNITY-INTERNAL"
+    description: "****"
+    switches:
+      - oct_data
+  301:
+    name: "UNITY-MGMT"
+    description: "****"
+    switches:
+      - oct_data
+  308:
+    name: "MOC-JIANZZHA"
+    description: "****"
+    switches:
+      - oct_data
+  500:
+    name: "MOC_BMI"
+    description: "****"
+    switches:
+      - oct_data
+  501:
+    name: "MOC-BMI"
+    description: "****"
+    switches:
+      - oct_data
+  701:
+    name: "ENGAGE1-FOREMAN"
+    description: "Foreman Provisioning. SNMP for OpenStack and Ceph"
+    switches:
+  702:
+    name: "ENGAGE1-OPENSTACK-INTERNAL"
+    description: "OpenStack internal API"
+    switches:
+  703:
+    name: "ENGAGE1-OPENSTACK-TENANT"
+    description: "OpenStack tenant network"
+    switches:
+  704:
+    name: "ENGAGE1-INTRANET"
+    description: "Intranet (routable to internet). SNMP for client nodes."
+    switches:
+  749:
+    name: "ENGAGE1-CEPH"
+    description: "Ceph Cluster (internal)"
+    switches:
+  750:
+    name: "ENGAGE1-CEPH-PUBLIC"
+    description: "Ceph public (for clients)"
+    switches:
+  910:
+    name: "CLOUDLAB-OBM"
+    description: "CloudLab IPMI Network"
+    switches:
+      - CL-SW-TORS
+      - oct_hub
+      - oct_mgmt
+  911:
+    name: "OCT-MOC-OBM"
+    description: "For OCT/UMass nodes IPMI"
+    switches:
+      - oct_mgmt
+  912:
+    name: "OCT-MOC"
+    description: "For OCT/UMass nodes IPMI for operate first"
+    switches:
+      - oct_mgmthub
+  930:
+    name: "OCT-SWMGMT"
+    description: "Switch management network for OCT"
+    switches:
+      - oct_mgmt
+  931:
+    name: "CHAMELEON-OBM"
+    description: "Chameleon management network"
+    switches:
+      - OCT8-SW-MGMT
+  950:
+    name: "UMA-NESE"
+    description: "NESE BGP VLAN for UMass"
+    switches:
+  1000:
+    name: "CHAMELEON-INTERNAL"
+    description: "Chameleon Internal Network"
+    switches:
+      - OCT8-SW-TORS
+  1001:
+    name: "CHAMELEON-NEUTRON"
+    description: "Chameleon neutron provisioning"
+    switches:
+      - OCT8-SW-TORS
+  1004:
+    name: "KUMO-INTRANET"
+    description: "Intranet (routable to internet). SNMP for client nodes."
+    switches:
+      - oct_data
+  2470:
+    name: "NERC-FLOATING-201"
+    description: "*eth4: floating ip (vlan 201) - tenant public IPs"
+    switches:
+  2471:
+    name: "NERC-EXTERNAL-200"
+    description: "*eth3: external network (vlan 200) - public API / endpoints"
+    switches:
+  2472:
+    name: "NERC-INTERNAL-101"
+    description: "eth0.101: internal api (vlan 101) - internal to node"
+    switches:
+  2473:
+    name: "NERC-PRIVATE-102"
+    description: "eth0.102: tenant private (vlan 102) - VMs sit here, private network/VXLAN"
+    switches:
+  2476:
+    name: "NERC-ADMIN-100"
+    description: "NERC-Admin network 1->eth0:provisioning network(vlan 100)-deploying images/DHCP> PAT out"
+    switches:
+  2477:
+    name: "NERC-OBM"
+    description: "NERC - OBM/MGMT Network 1 -> eth1: management/ipmi - undercloud to DRAC/BMC 10.255"
+    switches:
+  2478:
+    name: "NERC-STORAGE-103"
+    description: "eth2: storage (vlan 103) - ceph/jumboframe? 10.255"
+    switches:
+  3801:
+    name: "CSAIL-3801"
+    description: "CSAIL Floating IP 1"
+    switches:
+      - oct_data
+  3802:
+    name: "CSAIL-3802"
+    description: "CSAIL Floating IP 2"
+    switches:
+      - oct_data
+  3803:
+    name: "CSAIL-3803"
+    description: "CSAIL Floating IP 3"
+    switches:
+      - oct_data
+  3808:
+    name: "****"
+    description: "Public IPs****"
+    switches:

@@ -9,6 +9,7 @@ OCT-MHUB-1      ansible_host=10.80.1.11
 OCT-MHUB-2      ansible_host=10.80.1.12
 
 [oct_tors]
+CL-SW-TORS      ansible-host=10.80.2.1
 OCT1-SW-TORS    ansible_host=10.80.2.11
 OCT2-SW-TORS    ansible_host=10.80.2.21
 OCT3-SW-TORS-A  ansible_host=10.80.2.31
@@ -34,6 +35,14 @@ OCT5-SW-CTRL    ansible_host=10.80.2.54
 OCT7-SW-CTRL    ansible_host=10.80.2.73
 OCT8-SW-CTRL    ansible_host=10.80.2.83
 OCT9-SW-HYB     ansible_host=10.80.2.93
+
+[oct_data:children]
+oct_hub
+oct_tors
+
+[oct_mgmt:children]
+oct_mgmthub
+oct_tors_mgmt
 
 [oct:children]
 oct_hub
