@@ -74,6 +74,7 @@ port_channels:
       - 624:630
       # MGMT
       - 911
+      - 912
       - 913
       # CSAIL
       - 3801
