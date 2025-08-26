@@ -208,6 +208,33 @@ interfaces:
       - "untagged"
       - "tagged"
   hundredGigE 1/17:
+    fanout:
+      type: "quad"
+      speed: "10G"
+  TenGigabitEthernet 1/17/1:
+    description: "OCT9-FPGABUILD-CTRL"
+    state: "up"
+    portmode: "access"
+    untagged: 84
+    stp:
+      edgeport: true
+      bpduguard: true
+    blocklist:
+      - "untagged"
+      - "tagged"
+  TenGigabitEthernet 1/17/2:
+    description: "OCT9-FPGABUILD-Experiment"
+    state: "up"
+    portmode: "hybrid"
+    stp:
+      edgeport: true
+      bpduguard: true
+    blocklist:
+      - "untagged"
+      - "tagged"
+  TenGigabitEthernet 1/17/3:
+    state: "down"
+  TenGigabitEthernet 1/17/4:
     state: "down"
   hundredGigE 1/18:
     state: "down"

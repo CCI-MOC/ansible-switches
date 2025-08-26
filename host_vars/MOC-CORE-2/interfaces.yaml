@@ -49,53 +49,29 @@ interfaces:
       type: "quad"
       speed: "25G"
   twentyFiveGigE 1/2/1:
-    description: "ESI-CTRL-U33-R"
+    description: "ESI-CTRL-U33-R Overcloud 0"
     state: "up"
-    untagged: 214
-    tagged:
-      - 250
-      - 213
-      - 464:499
-      - 501:519
-      - 700
-      - 911
-      - 3801
-    portmode: "hybrid"
     mtu: 9216
+    portmode: "hybrid"
+    untagged: 127
     stp:
       edgeport: true
       bpduguard: true
   twentyFiveGigE 1/2/2:
-    description: "ESI-CTRL-U32-R"
+    description: "ESI-CTRL-U32-R Overcloud 1"
     state: "up"
-    untagged: 214
-    tagged:
-      - 250
-      - 213
-      - 464:499
-      - 501:519
-      - 700
-      - 911
-      - 3801
-    portmode: "hybrid"
     mtu: 9216
+    portmode: "hybrid"
+    untagged: 127
     stp:
       edgeport: true
       bpduguard: true
   twentyFiveGigE 1/2/3:
-    description: "ESI-CTRL-U31-R"
+    description: "ESI-CTRL-U31-R Overcloud 2"
     state: "up"
-    untagged: 214
-    tagged:
-      - 250
-      - 213
-      - 464:499
-      - 501:519
-      - 700
-      - 911
-      - 3801
-    portmode: "hybrid"
     mtu: 9216
+    portmode: "hybrid"
+    untagged: 127
     stp:
       edgeport: true
       bpduguard: true
@@ -271,6 +247,7 @@ interfaces:
       - 10
       - 127
       - 204
+      - 208
       - 211
       - 213
       - 250
@@ -380,7 +357,6 @@ interfaces:
       - 127
       - 201
       - 204
-      - 211
       - 277
       - 911
       - 930

@@ -45,47 +45,9 @@ interfaces:
     allowlist:
       - "description"
   TenGigabitEthernet 1/13:
-    description: "OCT4-5"
-    state: "up"
-    mtu: 9216
-    portmode: "hybrid"
-    untagged: 208
-    tagged:
-      - 211
-      - 213
-      - 250
-      - 351:499
-      - 520:622
-      - 623
-      - 624:630
-      - 911
-      - 2076
-      - 3801
-      - 2305:2308
-    stp:
-      edgeport: true
-      bpduguard: true
+    state: "down"
   TenGigabitEthernet 1/14:
-    description: "OCT4-4"
-    state: "up"
-    mtu: 9216
-    portmode: "hybrid"
-    untagged: 208
-    tagged:
-      - 211
-      - 213
-      - 250
-      - 351:499
-      - 520:622
-      - 623
-      - 624:630
-      - 911
-      - 2076
-      - 3801
-      - 2305:2308
-    stp:
-      edgeport: true
-      bpduguard: true
+    state: "down"
   TenGigabitEthernet 1/15:
     #description: "OCT4-3"
     allowlist:
@@ -94,83 +56,24 @@ interfaces:
     allowlist:
       - "description"
   TenGigabitEthernet 1/17:
-    description: "OCT4-1"
-    state: "up"
-    mtu: 9216
-    portmode: "hybrid"
-    untagged: 208
-    tagged:
-      - 211
-      - 213
-      - 250
-      - 351:499
-      - 520:622
-      - 623
-      - 624:630
-      - 911
-      - 2076
-      - 3801
-      - 2305:2308
-    stp:
-      edgeport: true
-      bpduguard: true
+    state: "down"
   TenGigabitEthernet 1/18:
-    description: "OCT4-0"
-    state: "up"
-    mtu: 9216
-    portmode: "hybrid"
-    untagged: 127
-    tagged:
-      - 213
-      - 911
-    stp:
-      edgeport: true
-      bpduguard: true
+    state: "down"
   TenGigabitEthernet 1/19:
     state: "down"
   TenGigabitEthernet 1/20:
-    description: "OCT4-0 2nd"
-    state: "up"
-    mtu: 9216
-    portmode: "hybrid"
-    untagged: 208
-    tagged:
-      - 623
-    stp:
-      edgeport: true
-      bpduguard: true
+    state: "down"
   TenGigabitEthernet 1/21:
-    description: "OCT4-1 2nd"
-    state: "up"
-    mtu: 9216
-    portmode: "hybrid"
-    untagged: 127
-    stp:
-      edgeport: true
-      bpduguard: true
+    state: "down"
   TenGigabitEthernet 1/22:
     allowlist:
       - "description"
   TenGigabitEthernet 1/23:
     state: "down"
   TenGigabitEthernet 1/24:
-    description: "OCT4-4 2nd"
-    state: "up"
-    mtu: 9216
-    portmode: "hybrid"
-    untagged: 127
-    stp:
-      edgeport: true
-      bpduguard: true
+    state: "down"
   TenGigabitEthernet 1/25:
-    description: "OCT4-5 2nd"
-    state: "up"
-    mtu: 9216
-    portmode: "hybrid"
-    untagged: 127
-    stp:
-      edgeport: true
-      bpduguard: true
+    state: "down"
   TenGigabitEthernet 1/26:
     state: "down"
   TenGigabitEthernet 1/27:

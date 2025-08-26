@@ -84,6 +84,7 @@ NERC-CORE-2 ansible_host=10.80.3.2 ansible_network_os=cisco.nxos.nxos
 NERC-R8PAC23-SW-TORS ansible_host=10.80.3.11 ansible_network_os=dellemc.os9.os9
 NERC-R2PCC21-SW-TORS ansible_host=10.80.3.21 ansible_network_os=dellemc.os9.os9
 NERC-R2PCC06-SW-TORS ansible_host=10.80.3.31 ansible_network_os=dellemc.os9.os9
+NERC-R2PCC06-SW-MGMT ansible_host=10.80.3.35 ansible_network_os=junos.junos
 NERC-R1PCC20-SW-TORS-A ansible_host=10.80.3.41 ansible_network_os=cisco.nxos.nxos
 NERC-R1PCC20-SW-TORS-B ansible_host=10.80.3.42 ansible_network_os=cisco.nxos.nxos
 NERC-R1PCC20-SW-MGMT ansible_host=10.80.3.45 ansible_network_os=dellemc.os9.os9

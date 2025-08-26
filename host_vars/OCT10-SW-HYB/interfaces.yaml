@@ -148,9 +148,21 @@ interfaces:
   GigabitEthernet 1/20:
     state: "down"
   GigabitEthernet 1/21:
-    state: "down"
+    description: "PDU-L"
+    state: "up"
+    portmode: "access"
+    untagged: 933
+    stp:
+      edgeport: true
+      bpduguard: true
   GigabitEthernet 1/22:
-    state: "down"
+    description: "PDU-R"
+    state: "up"
+    portmode: "access"
+    untagged: 933
+    stp:
+      edgeport: true
+      bpduguard: true
   GigabitEthernet 1/23:
     state: "down"
   GigabitEthernet 1/24:
