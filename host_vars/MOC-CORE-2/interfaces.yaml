@@ -84,8 +84,11 @@ interfaces:
   TenGigabitEthernet 1/3/1:
     description: "ESI Undercloud Port 2"
     state: "up"
-    portmode: "access"
-    untagged: 214
+    mtu: 9216
+    portmode: "hybrid"
+    untagged: 208
+    tagged:
+      - 623
     stp:
       edgeport: true
       bpduguard: true
@@ -362,8 +365,7 @@ interfaces:
       - 930
       - 931
       - 2076
-      - 2303
-      - 2304
+      - 2303:2308
     mode: "lacp"
     lacp-rate: "fast"
     lacp-members-active:
@@ -387,8 +389,7 @@ interfaces:
       - 931
       - 935
       - 2076
-      - 2303
-      - 2304
+      - 2303:2308
       - 3801
     mode: "lacp"
     lacp-rate: "fast"
@@ -413,8 +414,7 @@ interfaces:
       - 931
       - 935
       - 2076
-      - 2303
-      - 2304
+      - 2303:2308
       - 3801
     mode: "lacp"
     lacp-rate: "fast"

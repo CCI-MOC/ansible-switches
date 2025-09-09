@@ -447,6 +447,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -465,6 +466,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -483,6 +485,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -501,6 +504,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -519,6 +523,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -537,6 +542,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -555,6 +561,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -573,6 +580,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -591,6 +599,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -609,6 +618,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -637,6 +647,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -655,6 +666,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -673,6 +685,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -691,6 +704,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -709,6 +723,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -727,6 +742,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -745,6 +761,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -763,6 +780,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -781,6 +799,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -799,6 +818,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -817,6 +837,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -835,6 +856,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -853,6 +875,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -871,6 +894,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -889,6 +913,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -907,6 +932,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -925,6 +951,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -943,6 +970,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -961,6 +989,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -979,6 +1008,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -997,6 +1027,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1015,6 +1046,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1033,6 +1065,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1051,6 +1084,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1069,6 +1103,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1087,6 +1122,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1105,6 +1141,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1123,6 +1160,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1141,6 +1179,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1159,6 +1198,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1177,6 +1217,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1195,6 +1236,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1213,6 +1255,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1231,6 +1274,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1249,6 +1293,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1267,6 +1312,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1285,6 +1331,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1303,6 +1350,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1372,6 +1420,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1390,6 +1439,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1408,6 +1458,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1426,6 +1477,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1444,6 +1496,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1462,6 +1515,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1480,6 +1534,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1498,6 +1553,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1516,6 +1572,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1534,6 +1591,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1552,6 +1610,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1570,6 +1629,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1588,6 +1648,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1714,6 +1775,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1732,6 +1794,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1886,6 +1949,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1904,6 +1968,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1922,6 +1987,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1974,6 +2040,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -1992,6 +2059,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true
@@ -2010,6 +2078,7 @@ interfaces:
       - 2172
       - 2173
       - 2180
+      - 2305
     mtu: 9216
     stp:
       edgeport: true

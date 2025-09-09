@@ -87,9 +87,6 @@ interfaces:
     stp:
       edgeport: true
       bpduguard: true
-    blocklist:
-      - "untagged"
-      - "tagged"
   TenGigabitEthernet 1/15/2:
     description: "OCT10-FPGABUILD-Experiment"
     state: "up"

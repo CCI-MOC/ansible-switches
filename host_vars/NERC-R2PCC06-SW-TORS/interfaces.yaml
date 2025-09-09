@@ -64,13 +64,13 @@ interfaces:
     description: "U15-B"
     mtu: 9216
   twentyFiveGigE 1/17:
-    state: "up"
-    description: "U17-A"
-    mtu: 9216
+    description: "MOC-R2PCC06U17-1"
+    allowlist:
+      - "description"
   twentyFiveGigE 1/18:
-    state: "up"
-    description: "U17-B"
-    mtu: 9216
+    description: "MOC-R2PCC06U17-2"
+    allowlist:
+      - "description"
   twentyFiveGigE 1/19:
     description: "MOC-R2PCC06U19-1"
     allowlist:
@@ -88,13 +88,13 @@ interfaces:
     allowlist:
       - "description"
   twentyFiveGigE 1/23:
-    state: "up"
-    description: "U23-A"
-    mtu: 9216
+    description: "MOC-R2PCC06U23-1"
+    allowlist:
+      - "description"
   twentyFiveGigE 1/24:
-    state: "up"
-    description: "U23-B"
-    mtu: 9216
+    description: "MOC-R2PCC06U23-2"
+    allowlist:
+      - "description"
   twentyFiveGigE 1/25:
     description: "MOC-R2PCC06U25-1"
     allowlist:
@@ -112,13 +112,13 @@ interfaces:
     allowlist:
       - "description"
   twentyFiveGigE 1/29:
-    state: "up"
-    description: "U29-A"
-    mtu: 9216
+    description: "MOC-R2PCC06U29-1"
+    allowlist:
+      - "description"
   twentyFiveGigE 1/30:
-    state: "up"
-    description: "U29-B"
-    mtu: 9216
+    description: "MOC-F2PCC06U29-2"
+    allowlist:
+      - "description"
   twentyFiveGigE 1/31:
     state: "up"
     description: "U31-A"
@@ -343,51 +343,6 @@ interfaces:
     lacp-members-active:
       - "twentyFiveGigE 1/15"
       - "twentyFiveGigE 1/16"
-  Port-channel 108:
-    description: "U17 LAG"
-    state: "up"
-    portmode: "hybrid"
-    untagged: 2172
-    tagged:
-      - 2173
-    mtu: 9216
-    stp:
-      edgeport: true
-      bpduguard: true
-    lacp-rate: "fast"
-    lacp-members-active:
-      - "twentyFiveGigE 1/17"
-      - "twentyFiveGigE 1/18"
-  Port-channel 111:
-    description: "U23 LAG"
-    state: "up"
-    portmode: "hybrid"
-    untagged: 2172
-    tagged:
-      - 2173
-    mtu: 9216
-    stp:
-      edgeport: true
-      bpduguard: true
-    lacp-rate: "fast"
-    lacp-members-active:
-      - "twentyFiveGigE 1/23"
-      - "twentyFiveGigE 1/24"
-  Port-channel 114:
-    description: "U29 LAG"
-    state: "up"
-    portmode: "hybrid"
-    untagged: 2172
-    tagged:
-      - 2173
-    mtu: 9216
-    stp:
-      edgeport: true
-      bpduguard: true
-    lacp-rate: "fast"
-    lacp-members-active:
-      - "twentyFiveGigE 1/29"
-      - "twentyFiveGigE 1/30"
   Port-channel 115:
     description: "U31 LAG"
     state: "up"
