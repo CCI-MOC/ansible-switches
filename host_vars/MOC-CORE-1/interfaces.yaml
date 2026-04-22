@@ -59,7 +59,6 @@ interfaces:
       - 911
       - 2076
       - 3801
-      - 2305:2308
     stp:
       edgeport: true
       bpduguard: true
@@ -80,7 +79,6 @@ interfaces:
       - 911
       - 2076
       - 3801
-      - 2305:2308
     stp:
       edgeport: true
       bpduguard: true
@@ -101,7 +99,6 @@ interfaces:
       - 911
       - 2076
       - 3801
-      - 2305:2308
     stp:
       edgeport: true
       bpduguard: true
@@ -308,7 +305,6 @@ interfaces:
       - 204
       - 211
       - 300
-      - 350
       - 351:499
       - 501:622
       - 623
@@ -366,8 +362,7 @@ interfaces:
   Port-channel 102:
     description: "CSAIL LAG"
     state: "up"
-    portmode: "hybrid"
-    untagged: 10
+    portmode: "trunk"
     tagged:
       # CSAIL
       - 3801
