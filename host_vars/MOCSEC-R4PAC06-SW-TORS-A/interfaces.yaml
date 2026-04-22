@@ -5,168 +5,112 @@ interfaces:
       speed: "25G"
   twentyFiveGigE 1/1/1:
     description: "U3-S1-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/1/2:
     description: "U3-S3-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/1/3:
     description: "U5-S1-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/1/4:
     description: "U5-S3-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   hundredGigE 1/2:
     fanout:
       type: "quad"
       speed: "25G"
   twentyFiveGigE 1/2/1:
     description: "U7-S1-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/2/2:
     description: "U7-S3-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/2/3:
     description: "U9-S1-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/2/4:
     description: "U9-S3-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   hundredGigE 1/3:
     fanout:
       type: "quad"
       speed: "25G"
   twentyFiveGigE 1/3/1:
     description: "U11-S1-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/3/2:
     description: "U11-S3-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/3/3:
     description: "U13-S1-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/3/4:
     description: "U13-S3-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   hundredGigE 1/4:
     fanout:
       type: "quad"
       speed: "25G"
   twentyFiveGigE 1/4/1:
     description: "U15-S1-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/4/2:
     description: "U15-S3-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/4/3:
     description: "U17-S1-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/4/4:
     description: "U17-S3-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   hundredGigE 1/5:
     fanout:
       type: "quad"
       speed: "25G"
   twentyFiveGigE 1/5/1:
     description: "U19-S1-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/5/2:
     description: "U19-S3-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/5/3:
     description: "U21-S1-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/5/4:
     description: "U21-S3-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   hundredGigE 1/6:
     fanout:
       type: "quad"
       speed: "25G"
   twentyFiveGigE 1/6/1:
     description: "U23-S1-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/6/2:
     description: "U23-S3-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/6/3:
     description: "U25-S1-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/6/4:
     description: "U25-S3-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   hundredGigE 1/7:
     fanout:
       type: "quad"
       speed: "25G"
   twentyFiveGigE 1/7/1:
     description: "U27-S1-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/7/2:
     description: "U27-S3-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/7/3:
     description: "U29-S1-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   twentyFiveGigE 1/7/4:
     description: "U29-S3-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   hundredGigE 1/8:
     state: "down"
   hundredGigE 1/9:
@@ -199,192 +143,147 @@ interfaces:
       speed: "10G"
   TenGigabitEthernet 1/21/1:
     description: "U31-S1A-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/21/2:
     description: "U31-S1B-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/21/3:
     description: "U31-S1C-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/21/4:
     description: "U31-S1D-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   hundredGigE 1/22:
     fanout:
       type: "quad"
       speed: "10G"
   TenGigabitEthernet 1/22/1:
     description: "U31-S3A-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/22/2:
     description: "U31-S3B-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/22/3:
     description: "U31-S3C-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/22/4:
     description: "U31-S3D-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   hundredGigE 1/23:
     fanout:
       type: "quad"
       speed: "10G"
   TenGigabitEthernet 1/23/1:
     description: "U33-S1A-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/23/2:
     description: "U33-S1B-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/23/3:
     description: "U33-S1C-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/23/4:
     description: "U33-S1D-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   hundredGigE 1/24:
     fanout:
       type: "quad"
       speed: "10G"
   TenGigabitEthernet 1/24/1:
-    description: "U33-S3A-P1"
+    description: "U33-S3A-P1 - Infra1"
     state: "up"
-    portmode: "access"
+    portmode: "hybrid"
     untagged: 203
+    tagged:
+      - 206
+      - 207
   TenGigabitEthernet 1/24/2:
     description: "U33-S3B-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/24/3:
     description: "U33-S3C-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/24/4:
     description: "U33-S3D-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   hundredGigE 1/25:
     fanout:
       type: "quad"
       speed: "10G"
   TenGigabitEthernet 1/25/1:
     description: "U35-S1A-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/25/2:
     description: "U35-S1B-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/25/3:
     description: "U35-S1C-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/25/4:
     description: "U35-S1D-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   hundredGigE 1/26:
     fanout:
       type: "quad"
       speed: "10G"
   TenGigabitEthernet 1/26/1:
-    description: "U35-S3A-P1"
+    description: "U35-S3A-P1 - Infra2"
     state: "up"
-    portmode: "access"
+    portmode: "hybrid"
     untagged: 203
+    tagged:
+      - 206
+      - 207
   TenGigabitEthernet 1/26/2:
     description: "U35-S3B-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/26/3:
     description: "U35-S3C-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/26/4:
     description: "U35-S3D-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   hundredGigE 1/27:
     fanout:
       type: "quad"
       speed: "10G"
   TenGigabitEthernet 1/27/1:
-    description: "U37-S1A-P1"
+    description: "U37-S1A-P1 - OME"
     state: "up"
     portmode: "access"
     untagged: 203
   TenGigabitEthernet 1/27/2:
-    description: "U37-S1B-P1"
+    description: "U37-S1B-P1 - Bastion"
     state: "up"
     portmode: "access"
     untagged: 203
   TenGigabitEthernet 1/27/3:
     description: "U37-S1C-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/27/4:
     description: "U37-S1D-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   hundredGigE 1/28:
     fanout:
       type: "quad"
       speed: "10G"
   TenGigabitEthernet 1/28/1:
-    description: "U37-S3A-P1"
+    description: "U37-S3A-P1 - Infra3"
     state: "up"
-    portmode: "access"
+    portmode: "hybrid"
     untagged: 203
+    tagged:
+      - 206
+      - 207
   TenGigabitEthernet 1/28/2:
     description: "U37-S3B-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/28/3:
     description: "U37-S3C-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   TenGigabitEthernet 1/28/4:
     description: "U37-S3D-P1"
-    state: "up"
-    portmode: "access"
-    untagged: 203
+    state: "down"
   hundredGigE 1/29:
     state: "down"
   hundredGigE 1/30:
