@@ -53,7 +53,7 @@ vlans:
       - mocsecdata
   - id: 204
     name: MOC-GENERAL
-    description: Intranet (routable to internet). SNMP for client nodes.
+    description: MaaS and NAT access to internet.
     fabrics:
       - oct
       - nerc
