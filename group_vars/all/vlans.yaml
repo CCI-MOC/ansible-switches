@@ -1974,17 +1974,26 @@ vlans:
       - nerc
       - moc
   - id: 2305
-    name: PureStorage-Test1
-    description: PureStorage Test net 1
+    name: PureStorage-Secure-Infra
+    description: PureStorage Secure Infra Network 10.8.0.0 /24
     fabrics:
       - nerc
       - moc
+      - mocsecdata
   - id: 2306
-    name: PureStorage-Test2
-    description: PureStorage Test net 2
+    name: PureStorage-Secure-Staging
+    description: PureStorage Secure Staging Network 10.8.1.0 /24
     fabrics:
       - nerc
       - moc
+      - mocsecdata
+  - id: 2307
+    name: PureStorage-Secure-Prod
+    description: PureStorage Secure Staging Network 10.8.2.0 /23
+    fabrics:
+      - nerc
+      - moc
+      - mocsecdata
   - id: 2500
     name: oct-cloudlab-2500
     description: OCT CloudLab Vlan 2500

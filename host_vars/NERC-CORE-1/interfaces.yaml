@@ -156,7 +156,7 @@ interfaces:
       - 2170
       - 2172:2180
       - 2180
-      - 2300:2308
+      - 2304:2307
     mode: "lacp"
     lacp-rate: "fast"
     lacp-members-active:

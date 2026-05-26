@@ -280,9 +280,7 @@ interfaces:
     state: "up"
     mtu: 9216
   TenGigabitEthernet 1/34:
-    description: "VLT Peer Link"
-    state: "up"
-    ip4: "10.255.255.2/30"
+    state: "down"
   Port-channel 10:
     description: "MOCSEC-FW Uplink"
     state: "up"
@@ -292,6 +290,7 @@ interfaces:
       - 203
       - 206
       - 207
+      - 2305:2307
     lacp-rate: "fast"
     lacp-members-active:
       - "TenGigabitEthernet 1/33"

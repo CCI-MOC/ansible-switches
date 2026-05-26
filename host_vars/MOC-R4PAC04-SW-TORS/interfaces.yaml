@@ -1,6 +1,15 @@
 interfaces:
   twentyFiveGigE 1/1:
-    state: "down"
+    description: "TEMP_STORAGE_SEC"
+    state: "up"
+    mtu: 9216
+    portmode: "trunk"
+    tagged:
+      - 2305
+      - 2306
+      - 2307
+    stp:
+      disabled: true
   twentyFiveGigE 1/2:
     state: "down"
   twentyFiveGigE 1/3:

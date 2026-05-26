@@ -295,7 +295,7 @@ interfaces:
       - 2170
       - 2172:2177
       - 2180
-      - 2304:2306
+      - 2304:2307
     mtu: 9216
     stp:
       disabled: true
@@ -358,7 +358,7 @@ interfaces:
       - 931
       - 935
       - 2076
-      - 2304:2306
+      - 2304
       - 3801
     mode: "lacp"
     lacp-rate: "fast"
@@ -385,7 +385,7 @@ interfaces:
       - 931
       - 935
       - 2076
-      - 2304:2306
+      - 2304
       - 3801
     mode: "lacp"
     lacp-rate: "fast"
