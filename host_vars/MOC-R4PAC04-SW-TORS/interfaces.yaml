@@ -5,6 +5,7 @@ interfaces:
     mtu: 9216
     portmode: "trunk"
     tagged:
+      - 203
       - 2305
       - 2306
       - 2307

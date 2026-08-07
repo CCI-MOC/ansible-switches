@@ -50,6 +50,7 @@ interfaces:
     untagged: 208
     tagged:
       - 211
+      - 212
       - 351:499
       - 520:622
       - 623
@@ -68,6 +69,7 @@ interfaces:
     untagged: 208
     tagged:
       - 211
+      - 212
       - 351:499
       - 520:622
       - 623
@@ -86,6 +88,7 @@ interfaces:
     untagged: 208
     tagged:
       - 211
+      - 212
       - 351:499
       - 520:622
       - 623
@@ -295,6 +298,7 @@ interfaces:
     state: "up"
     portmode: "trunk"
     tagged:
+      - 203
       - 204
       - 211
       - 300
@@ -304,6 +308,8 @@ interfaces:
       - 624:630
       - 911
       - 912
+      - 916
+      - 917
       - 930
       - 935
       - 2076
@@ -312,6 +318,7 @@ interfaces:
       - 2172:2177
       - 2180
       - 2304:2307
+      - 2310:2315
     mtu: 9216
     stp:
       disabled: true
@@ -377,6 +384,7 @@ interfaces:
       - 201
       - 204
       - 211
+      - 212
       - 215
       - 277
       - 911
@@ -387,7 +395,6 @@ interfaces:
       - 931
       - 935
       - 2076
-      - 2304
       - 3801
     mode: "lacp"
     lacp-rate: "fast"
@@ -404,6 +411,7 @@ interfaces:
       - 201
       - 204
       - 211
+      - 212
       - 215
       - 277
       - 911
@@ -414,7 +422,6 @@ interfaces:
       - 931
       - 935
       - 2076
-      - 2304
       - 3801
     mode: "lacp"
     lacp-rate: "fast"

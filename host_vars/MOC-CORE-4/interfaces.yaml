@@ -191,6 +191,8 @@ interfaces:
     portmode: "trunk"
     tagged:
       - 127
+      - 917
+      - 2304
     lacp-rate: "fast"
     lacp-members-active:
       - "TenGigabitEthernet 1/34"

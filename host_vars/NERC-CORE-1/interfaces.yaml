@@ -143,12 +143,15 @@ interfaces:
       disabled: true
     portmode: trunk
     tagged:
+      - 203
       - 204
       - 211
       - 300
       - 351:630
       - 911
       - 912
+      - 916
+      - 917
       - 930
       - 935
       - 2076
@@ -157,6 +160,7 @@ interfaces:
       - 2172:2180
       - 2180
       - 2304:2307
+      - 2310:2315
     mode: "lacp"
     lacp-rate: "fast"
     lacp-members-active:

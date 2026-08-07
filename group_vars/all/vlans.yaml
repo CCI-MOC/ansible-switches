@@ -37,6 +37,8 @@ vlans:
     description: NAT for infra nodes, can access 916
     fabrics:
       - mocsecdata
+      - moc
+      - nerc
   - id: 204
     name: MOC-GENERAL
     description: MaaS and NAT access to internet.
@@ -71,6 +73,11 @@ vlans:
     description: New England Storage Exchange (NESE)
     fabrics:
       - nerc
+      - moc
+  - id: 212
+    name: OPENACCELERATOR-EDGE
+    description: Open Accelerator Edge Network on FW
+    fabrics:
       - moc
   - id: 215
     name: MOC-INFRA-NAT
@@ -1805,6 +1812,15 @@ vlans:
     description: OBM network for MOCSEC cluster
     fabrics:
       - mocsecmgmt
+      - moc
+      - nerc
+  - id: 917
+    name: MOCSEC-STORAGE-MGMT
+    description: Storage management network for MOCSEC cluster
+    fabrics:
+      - moc
+      - nerc
+      - mocsecmgmt
   - id: 930
     name: MOC-SWMGMT
     description: Switch management network for MOC
@@ -1994,6 +2010,42 @@ vlans:
       - nerc
       - moc
       - mocsecdata
+  - id: 2310
+    name: PureStorage-OAC-1
+    description: PureStorage OAC 1 10.9.0.0/24
+    fabrics:
+      - nerc
+      - moc
+  - id: 2311
+    name: PureStorage-OAC-2
+    description: PureStorage OAC 2 10.9.1.0/24
+    fabrics:
+      - nerc
+      - moc
+  - id: 2312
+    name: PureStorage-OAC-3
+    description: PureStorage OAC 3 10.9.2.0/24
+    fabrics:
+      - nerc
+      - moc
+  - id: 2313
+    name: PureStorage-OAC-4
+    description: PureStorage OAC 4 10.9.3.0/24
+    fabrics:
+      - nerc
+      - moc
+  - id: 2314
+    name: PureStorage-OAC-5
+    description: PureStorage OAC 5 10.9.4.0/24
+    fabrics:
+      - nerc
+      - moc
+  - id: 2315
+    name: PureStorage-OAC-6
+    description: PureStorage OAC 6 10.9.5.0/24
+    fabrics:
+      - nerc
+      - moc
   - id: 2500
     name: oct-cloudlab-2500
     description: OCT CloudLab Vlan 2500

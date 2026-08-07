@@ -152,7 +152,13 @@ interfaces:
   GigabitEthernet 1/46:
     state: "down"
   GigabitEthernet 1/47:
-    state: "down"
+    description: "TEMP-UPLINK"
+    state: "up"
+    portmode: "trunk"
+    tagged:
+      - 916
+    stp:
+      disabled: true
   GigabitEthernet 1/48:
     description: "MOCSEC-FW"
     state: "up"

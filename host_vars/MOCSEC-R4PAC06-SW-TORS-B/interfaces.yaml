@@ -84,27 +84,39 @@ interfaces:
       type: "quad"
       speed: "25G"
   twentyFiveGigE 1/6/1:
-    description: "U23-S1-P2"
-    state: "down"
-  twentyFiveGigE 1/6/2:
     description: "U23-S3-P2"
     state: "down"
+  twentyFiveGigE 1/6/2:
+    description: "U23-S1-P1_INFRACTRL3_2"
+    state: "up"
+    portmode: "access"
+    untagged: 2305
+    stp:
+      edgeport: true
   twentyFiveGigE 1/6/3:
-    description: "U25-S1-P2"
-    state: "down"
-  twentyFiveGigE 1/6/4:
     description: "U25-S3-P2"
     state: "down"
+  twentyFiveGigE 1/6/4:
+    description: "U25-S1-P1_INFRACTRL2_2"
+    state: "up"
+    portmode: "access"
+    untagged: 2305
+    stp:
+      edgeport: true
   hundredGigE 1/7:
     fanout:
       type: "quad"
       speed: "25G"
   twentyFiveGigE 1/7/1:
-    description: "U27-S1-P2"
-    state: "down"
-  twentyFiveGigE 1/7/2:
     description: "U27-S3-P2"
     state: "down"
+  twentyFiveGigE 1/7/2:
+    description: "U27-S1-P1_INFRACTRL1_2"
+    state: "up"
+    portmode: "access"
+    untagged: 2305
+    stp:
+      edgeport: true
   twentyFiveGigE 1/7/3:
     description: "U29-S1-P2"
     state: "down"
@@ -183,8 +195,12 @@ interfaces:
     description: "U33-S1C-P2"
     state: "down"
   TenGigabitEthernet 1/23/4:
-    description: "U33-S1D-P2"
-    state: "down"
+    description: "U33-S3B-P2 - StagingWorker3"
+    state: "up"
+    portmode: "access"
+    untagged: 2306
+    stp:
+      edgeport: true
   hundredGigE 1/24:
     fanout:
       type: "quad"
@@ -215,8 +231,12 @@ interfaces:
     description: "U35-S1C-P2"
     state: "down"
   TenGigabitEthernet 1/25/4:
-    description: "U35-S1D-P2"
-    state: "down"
+    description: "U35-S3B-P2 - StagingWorker2"
+    state: "up"
+    portmode: "access"
+    untagged: 2306
+    stp:
+      edgeport: true
   hundredGigE 1/26:
     fanout:
       type: "quad"
@@ -247,8 +267,12 @@ interfaces:
     description: "U37-S1C-P2"
     state: "down"
   TenGigabitEthernet 1/27/4:
-    description: "U37-S1D-P2"
-    state: "down"
+    description: "U37-S3B-P2 - StagingWorker1"
+    state: "up"
+    portmode: "access"
+    untagged: 2306
+    stp:
+      edgeport: true
   hundredGigE 1/28:
     fanout:
       type: "quad"
