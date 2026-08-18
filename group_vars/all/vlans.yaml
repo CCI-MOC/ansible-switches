@@ -2034,36 +2034,42 @@ vlans:
     fabrics:
       - nerc
       - moc
+      - mocsecdata
   - id: 2311
     name: PureStorage-OAC-INFRA
     description: PureStorage OAC 2 10.9.1.0/24
     fabrics:
       - nerc
       - moc
+      - mocsecdata
   - id: 2312
     name: PureStorage-OAC-STAGING
     description: PureStorage OAC 3 10.9.2.0/24
     fabrics:
       - nerc
       - moc
+      - mocsecdata
   - id: 2313
     name: PureStorage-OAC-PROD
     description: PureStorage OAC 4 10.9.3.0/24
     fabrics:
       - nerc
       - moc
+      - mocsecdata
   - id: 2314
     name: PureStorage-OAC-5
     description: PureStorage OAC 5 10.9.4.0/24
     fabrics:
       - nerc
       - moc
+      - mocsecdata
   - id: 2315
     name: PureStorage-OAC-6
     description: PureStorage OAC 6 10.9.5.0/24
     fabrics:
       - nerc
       - moc
+      - mocsecdata
   - id: 2500
     name: oct-cloudlab-2500
     description: OCT CloudLab Vlan 2500

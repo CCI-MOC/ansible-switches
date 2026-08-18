@@ -351,6 +351,7 @@ interfaces:
       - 2305
       - 2306
       - 2307
+      - 2310:2315
     stp:
       disabled: true
   Port-channel 10:
@@ -363,6 +364,7 @@ interfaces:
       - 206
       - 207
       - 2305:2307
+      - 2310:2315
     lacp-rate: "fast"
     lacp-members-active:
       - "TenGigabitEthernet 1/33"
