@@ -74,20 +74,20 @@ vlans:
       - nerc
       - moc
   - id: 212
-    name: OPENACCELERATOR-EDGE
+    name: OAC-EDGE
     description: Open Accelerator Edge Network on FW
     subnet4: "10.20.0.0/24"
     fabrics:
       - moc
   - id: 213
-    name: OPENACCELERATOR-PROD-INFRA
+    name: OAC-PROD-INFRA
     description: OAC Prod Infra Net
     subnet4: "10.20.8.0/23"
     fabrics:
       - moc
       - nerc
   - id: 214
-    name: OPENACCELERATOR-STAGING-WORKLOAD
+    name: OAC-STAGING-WORKLOAD
     description: OAC Staging Workload Net
     subnet4: "10.20.10.0/23"
     fabrics:
@@ -100,14 +100,14 @@ vlans:
     fabrics:
       - moc
   - id: 216
-    name: OPENACCELERATOR-PRODUCTION-WORKLOAD0
+    name: OAC-PRODUCTION-WORKLOAD0
     description: OAC Production Workload0 Net
     subnet4: "10.20.12.0/23"
     fabrics:
       - moc
       - nerc
   - id: 217
-    name: OPENACCELERATOR-DEV-WORKLOAD1
+    name: OAC-DEV-WORKLOAD1
     description: OAC Dev Workload 1 Net
     subnet4: "10.20.14.0/23"
     fabrics:
