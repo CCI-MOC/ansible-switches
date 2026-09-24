@@ -17,3 +17,6 @@ jobs:
           pip install -r test-requirements.txt
       - name: Unit Tests
         run: pytest --cov=filter_plugins -rXxs
+
+      - name: Check VLAN Subnet Overlaps
+        run: python scripts/overlap.py
