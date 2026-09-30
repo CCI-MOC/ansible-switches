@@ -73,21 +73,21 @@
   notify: Save Config
   register: copy_result
 
-#- name: Apply configuration with 1 minute timeout
-#  cisco.nxos.nxos_command:
-#    commands: configure replace bootflash:ansible_config commit-timeout 60
-#    retries: 0
-#    wait_for: result[0] contains "Configure replace completed successfully."
-#  when: copy_result.changed
+- name: Apply configuration with 1 minute timeout
+  cisco.nxos.nxos_command:
+    commands: configure replace bootflash:ansible_config commit-timeout 60
+    retries: 0
+    wait_for: result[0] contains "Configure replace completed successfully."
+  when: copy_result.changed
 
 # In between here if there is an issue with the management, the client will lose access to the device and will not be able to commit the config. In that case it will revert in 1 minute
 
-#- name: Commit configuration replace
-#  cisco.nxos.nxos_command:
-#    commands: configure replace commit
-#  when: copy_result.changed
+- name: Commit configuration replace
+  cisco.nxos.nxos_command:
+    commands: configure replace commit
+  when: copy_result.changed
 
-#- name: Save Config
-#  cisco.nxos.nxos_command:
-#    commands: copy running-config startup-config
-#  when: copy_result.changed
+- name: Save Config
+  cisco.nxos.nxos_command:
+    commands: copy running-config startup-config
+  when: copy_result.changed
