@@ -9,7 +9,7 @@ interfaces:
       - 2305
       - 2306
       - 2307
-      - 2310:2315
+      - 2310:2316
     stp:
       disabled: true
   twentyFiveGigE 1/2:
