@@ -1,0 +1,201 @@
+interfaces:
+  swp1:
+    fanout:
+      type: "quad"
+  swp1s0:
+    description: "MOC-R4PCC02U38"
+    state: "down"
+  swp1s1:
+    description: "MOC-R4PCC02U37"
+    state: "down"
+  swp1s2:
+    description: "MOC-R4PCC02U36"
+    state: "down"
+  swp1s3:
+    description: "MOC-R4PCC02U35"
+    state: "down"
+  swp2:
+    fanout:
+      type: "quad"
+  swp2s0:
+    description: "MOC-R4PCC02U32"
+    state: "down"
+  swp2s1:
+    description: "MOC-R4PCC02U31"
+    state: "down"
+    portmode: "access"
+    untagged: 204
+    stp:
+      edgeport: true
+      disabled: true
+  swp2s2:
+    description: "MOC-R4PCC02U30"
+    state: "down"
+  swp2s3:
+    description: "MOC-R4PCC02U29"
+    state: "down"
+  swp3:
+    fanout:
+      type: "quad"
+  swp3s0:
+    description: "MOC-R4PCC02U26"
+    state: "down"
+  swp3s1:
+    description: "MOC-R4PCC02U25"
+    state: "up"
+    portmode: "hybrid"
+    untagged: 581
+    tagged:
+      - 211
+      - 2076
+    stp:
+      edgeport: true
+      disabled: true
+  swp3s2:
+    description: "MOC-R4PCC02U24"
+    state: "down"
+  swp3s3:
+    description: "MOC-R4PCC02U23"
+    state: "down"
+  swp4:
+    fanout:
+      type: "quad"
+  swp4s0:
+    description: "MOC-R4PCC02U18"
+    state: "up"
+    portmode: "hybrid"
+    untagged: 581
+    tagged:
+      - 211
+      - 2076
+    stp:
+      edgeport: true
+      disabled: true
+  swp4s1:
+    description: "MOC-R4PCC02U17"
+    state: "up"
+    portmode: "hybrid"
+    untagged: 581
+    tagged:
+      - 211
+      - 2076
+    stp:
+      edgeport: true
+      disabled: true
+  swp4s2:
+    description: "MOC-R4PCC02U16"
+    state: "down"
+  swp4s3:
+    description: "MOC-R4PCC02U15"
+    state: "down"
+  swp5:
+    fanout:
+      type: "quad"
+  swp5s0:
+    description: "MOC-R4PCC02U12"
+    state: "down"
+    portmode: "access"
+    untagged: 204
+    stp:
+      edgeport: true
+      disabled: true
+  swp5s1:
+    description: "MOC-R4PCC02U11"
+    state: "down"
+    portmode: "access"
+    untagged: 204
+    stp:
+      edgeport: true
+      disabled: true
+  swp5s2:
+    description: "MOC-R4PCC02U10"
+    state: "down"
+  swp5s3:
+    description: "MOC-R4PCC02U09"
+    state: "up"
+    portmode: "access"
+    untagged: 568
+    stp:
+      edgeport: true
+      disabled: true
+  swp6:
+    fanout:
+      type: "quad"
+  swp6s0:
+    description: "MOC-R4PCC02U06"
+    state: "down"
+  swp6s1:
+    description: "MOC-R4PCC02U05"
+    state: "up"
+    portmode: "access"
+    untagged: 568
+    stp:
+      edgeport: true
+      disabled: true
+  swp6s2:
+    description: "MOC-R4PCC02U04"
+    state: "down"
+  swp6s3:
+    description: "MOC-R4PCC02U03"
+    state: "down"
+  swp7:
+    state: "down"
+  swp8:
+    state: "down"
+  swp9:
+    state: "down"
+  swp10:
+    state: "down"
+  swp11:
+    state: "down"
+  swp12:
+    state: "down"
+  swp13:
+    state: "down"
+  swp14:
+    state: "down"
+  swp15:
+    state: "down"
+  swp16:
+    state: "down"
+  swp17:
+    state: "down"
+  swp18:
+    state: "down"
+  swp19:
+    state: "down"
+  swp20:
+    state: "down"
+  swp21:
+    state: "down"
+  swp22:
+    state: "down"
+  swp23:
+    state: "down"
+  swp24:
+    state: "down"
+  swp25:
+    state: "down"
+  swp26:
+    state: "down"
+  swp27:
+    state: "down"
+  swp28:
+    state: "down"
+  swp29:
+    state: "down"
+  swp30:
+    state: "down"
+  swp31:
+    state: "up"
+  swp32:
+    state: "up"
+  bond1:
+    description: "NERC-CORE"
+    portmode: "trunk"
+    tagged: "all"
+    lacp-rate: "fast"
+    lacp-members-active:
+      - "swp31"
+      - "swp32"
+

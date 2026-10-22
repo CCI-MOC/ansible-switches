@@ -1,0 +1,264 @@
+interfaces:
+  swp1:
+    state: "up"
+    speed: "auto"
+    portmode: "access"
+    untagged: 917
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp2:
+    state: "up"
+    speed: "auto"
+    portmode: "access"
+    untagged: 917
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp3:
+    state: "up"
+    portmode: "access"
+    untagged: 2146
+    stp:
+      edgeport: true
+      disabled: true
+  swp4:
+    state: "up"
+    portmode: "access"
+    untagged: 2146
+    stp:
+      edgeport: true
+      disabled: true
+  swp5:
+    state: "up"
+    portmode: "access"
+    untagged: 2146
+    stp:
+      edgeport: true
+      disabled: true
+  swp6:
+    state: "up"
+    portmode: "access"
+    untagged: 2146
+    stp:
+      edgeport: true
+      disabled: true
+  swp7:
+    state: "up"
+    portmode: "access"
+    untagged: 2146
+    stp:
+      edgeport: true
+      disabled: true
+  swp8:
+    state: "up"
+    portmode: "access"
+    untagged: 2146
+    stp:
+      edgeport: true
+      disabled: true
+  swp9:
+    state: "up"
+    portmode: "access"
+    untagged: 2146
+    stp:
+      edgeport: true
+      disabled: true
+  swp10:
+    state: "up"
+    portmode: "access"
+    untagged: 2146
+    stp:
+      edgeport: true
+      disabled: true
+  swp11:
+    state: "up"
+    portmode: "access"
+    untagged: 2146
+    stp:
+      edgeport: true
+      disabled: true
+  swp12:
+    state: "up"
+    portmode: "access"
+    untagged: 2146
+    stp:
+      edgeport: true
+      disabled: true
+  swp13:
+    state: "up"
+    portmode: "access"
+    untagged: 2146
+    stp:
+      edgeport: true
+      disabled: true
+  swp14:
+    state: "up"
+    portmode: "access"
+    untagged: 2146
+    stp:
+      edgeport: true
+      disabled: true
+  swp15:
+    state: "up"
+    portmode: "access"
+    untagged: 2146
+    stp:
+      edgeport: true
+      disabled: true
+  swp16:
+    state: "up"
+    portmode: "access"
+    untagged: 2170
+    stp:
+      edgeport: true
+      disabled: true
+  swp17:
+    state: "up"
+    portmode: "access"
+    untagged: 2170
+    stp:
+      edgeport: true
+      disabled: true
+  swp18:
+    state: "up"
+    portmode: "access"
+    untagged: 2170
+    stp:
+      edgeport: true
+      disabled: true
+  swp19:
+    state: "up"
+    portmode: "access"
+    untagged: 2146
+    stp:
+      edgeport: true
+      disabled: true
+  swp20:
+    state: "up"
+    portmode: "access"
+    untagged: 2146
+    stp:
+      edgeport: true
+      disabled: true
+  swp21:
+    state: "up"
+    portmode: "access"
+    untagged: 2146
+    stp:
+      edgeport: true
+      disabled: true
+  swp22:
+    state: "down"
+  swp23:
+    state: "down"
+  swp24:
+    state: "down"
+  swp25:
+    state: "down"
+  swp26:
+    state: "down"
+  swp27:
+    state: "down"
+  swp28:
+    state: "down"
+  swp29:
+    state: "down"
+  swp30:
+    state: "down"
+  swp31:
+    state: "down"
+  swp32:
+    state: "down"
+  swp33:
+    state: "up"
+    portmode: "access"
+    untagged: 916
+  swp34:
+    state: "up"
+    portmode: "access"
+    untagged: 916
+  swp35:
+    state: "up"
+    portmode: "access"
+    untagged: 916
+  swp36:
+    state: "up"
+    portmode: "access"
+    untagged: 916
+  swp37:
+    state: "up"
+    portmode: "access"
+    untagged: 916
+  swp38:
+    state: "up"
+    portmode: "access"
+    untagged: 912
+  swp39:
+    state: "up"
+    portmode: "access"
+    untagged: 912
+  swp40:
+    state: "up"
+    portmode: "access"
+    untagged: 912
+  swp41:
+    state: "down"
+  swp42:
+    state: "down"
+  swp43:
+    state: "up"
+    portmode: "access"
+    untagged: 930
+    stp:
+      edgeport: true
+      disabled: true
+  swp44:
+    state: "up"
+    portmode: "access"
+    untagged: 930
+    stp:
+      edgeport: true
+      disabled: true
+  swp45:
+    state: "up"
+    portmode: "access"
+    untagged: 930
+    stp:
+      edgeport: true
+      disabled: true
+  swp46:
+    state: "up"
+    portmode: "access"
+    untagged: 930
+    stp:
+      edgeport: true
+      disabled: true
+  swp47:
+    state: "up"
+    portmode: "access"
+    untagged: 930
+    stp:
+      edgeport: true
+      disabled: true
+  swp48:
+    state: "up"
+    portmode: "access"
+    untagged: 930
+    stp:
+      edgeport: true
+      disabled: true
+  swp49:
+    state: "down"
+  swp50:
+    state: "down"
+  swp51:
+    state: "down"
+  swp52:
+    state: "up"
+    speed: "auto"
+    portmode: "trunk"
+    tagged: "all"
+  vlan930:
+    ip4: "10.80.2.115/20"
+    gateway: "10.80.0.1"

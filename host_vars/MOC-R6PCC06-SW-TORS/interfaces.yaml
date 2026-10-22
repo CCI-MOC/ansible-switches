@@ -1,0 +1,790 @@
+interfaces:
+  swp1:
+    state: "up"
+  swp2:
+    state: "up"
+  swp3:
+    state: "up"
+  swp4:
+    state: "up"
+  swp5:
+    state: "up"
+  swp6:
+    state: "up"
+  swp7:
+    state: "up"
+  swp8:
+    state: "up"
+  swp9:
+    fanout:
+      type: "quad"
+      speed: "10G"
+  swp9s0:
+    description: "RC:ctl-0.nerc-ocp-test_1"
+    state: "up"
+  swp9s1:
+    description: "RC:ctl-0.nerc-ocp-test_2"
+    state: "up"
+  swp9s2:
+    description: "RC:ctl-1.nerc-ocp-test_1"
+    state: "up"
+  swp9s3:
+    description: "RC:ctl-1.nerc-ocp-test_2"
+    state: "up"
+  swp10:
+    fanout:
+      type: "quad"
+      speed: "10G"
+  swp10s0:
+    description: "RC:ctl-2.nerc-ocp-test_1"
+    state: "up"
+  swp10s1:
+    description: "RC:ctl-2.nerc-ocp-test_2"
+    state: "up"
+  swp10s2:
+    description: "RC:wrk-0.nerc-ocp-test_1"
+    state: "up"
+  swp10s3:
+    description: "RC:wrk-0.nerc-ocp-test_2"
+    state: "up"
+  swp11:
+    fanout:
+      type: "quad"
+      speed: "10G"
+  swp11s0:
+    description: "RC:wrk-1.nerc-ocp-test_1"
+    state: "up"
+  swp11s1:
+    description: "RC:wrk-1.nerc-ocp-test_2"
+    state: "up"
+  swp11s2:
+    description: "RC:wrk-2.nerc-ocp-test_1"
+    state: "up"
+  swp11s3:
+    description: "RC:wrk-2.nerc-ocp-test_2"
+    state: "up"
+  swp12:
+    fanout:
+      type: "quad"
+      speed: "10G"
+  swp12s0:
+    description: "RC:wrk-3.nerc-ocp-test_1"
+    state: "up"
+  swp12s1:
+    description: "RC:wrk-3.nerc-ocp-test_2"
+    state: "up"
+  swp12s2:
+    description: "RC:nerc-controller03_DATA_1"
+    state: "up"
+  swp12s3:
+    description: "RC:nerc-controller03_DATA_2"
+    state: "up"
+  swp13:
+    fanout:
+      type: "quad"
+      speed: "10G"
+  swp13s0:
+    description: "RC:nerc-hyp001_DATA_1"
+    state: "up"
+  swp13s1:
+    description: "RC:nerc-hyp001_DATA_2"
+    state: "up"
+  swp13s2:
+    description: "RC:nerc-admin01_DATA_1"
+    state: "up"
+  swp13s3:
+    description: "RC:nerc-admin01_DATA_2"
+    state: "up"
+  swp14:
+    fanout:
+      type: "quad"
+      speed: "10G"
+  swp14s0:
+    description: "RC:nerc-controller01_DATA_1"
+    state: "up"
+  swp14s1:
+    description: "RC:nerc-controller01_DATA_2"
+    state: "up"
+  swp14s2:
+    description: "RC:nerc-controller02_DATA_1"
+    state: "up"
+  swp14s3:
+    description: "RC:nerc-controller02_DATA_2"
+    state: "up"
+  swp15:
+    fanout:
+      type: "quad"
+      speed: "10G"
+  swp15s0:
+    description: "NERC:os-ctl-0.nerc-shift-0_1"
+    state: "up"
+  swp15s1:
+    description: "NERC:os-ctl-0.nerc-shift-0_2"
+    state: "up"
+  swp15s2:
+    description: "NERC:os-ctl-1.nerc-shift-0_1"
+    state: "up"
+  swp15s3:
+    description: "NERC:os-ctl-1.nerc-shift-0_2"
+    state: "up"
+  swp16:
+    fanout:
+      type: "quad"
+      speed: "10G"
+  swp16s0:
+    description: "NERC:os-ctl-2.nerc-shift-0_1"
+    state: "up"
+  swp16s1:
+    description: "NERC:os-ctl-2.nerc-shift-0_2"
+    state: "up"
+  swp16s2:
+    description: "NERC:nerc-admin03_1"
+    state: "up"
+  swp16s3:
+    description: "NERC:nerc-admin03_2"
+    state: "up"
+  swp17:
+    fanout:
+      type: "quad"
+      speed: "10G"
+  swp17s0:
+    description: "RC:nerc-svc-hyp001_1"
+    state: "up"
+  swp17s1:
+    description: "RC:nerc-svc-hyp001_2"
+    state: "up"
+  swp17s2:
+    description: "RC:nerc-svc-hyp002_1"
+    state: "up"
+  swp17s3:
+    description: "RC:nerc-svc-hyp002_2"
+    state: "up"
+  swp18:
+    fanout:
+      type: "quad"
+      speed: "10G"
+  swp18s0:
+    description: "RC:nerc-svc-hyp003_1"
+    state: "up"
+  swp18s1:
+    description: "RC:nerc-svc-hyp003_2"
+    state: "up"
+  swp18s2:
+    description: "RC:nerc-ocp_1"
+    state: "up"
+  swp18s3:
+    description: "RC:nerc-ocp_2"
+    state: "up"
+  swp19:
+    fanout:
+      type: "quad"
+      speed: "10G"
+  swp19s0:
+    description: "RC:nerc-ocp_1"
+    state: "up"
+  swp19s1:
+    description: "RC:nerc-ocp_2"
+    state: "up"
+  swp19s2:
+    description: "RC:nerc-ocp_1"
+    state: "up"
+  swp19s3:
+    description: "RC:nerc-ocp_2"
+    state: "up"
+  swp20:
+    fanout:
+      type: "quad"
+      speed: "10G"
+  swp20s0:
+    description: "RC:nerc-ocp_1"
+    state: "up"
+  swp20s1:
+    description: "RC:nerc-ocp_2"
+    state: "up"
+  swp20s2:
+    description: "RC:nerc-ocp_1"
+    state: "up"
+  swp20s3:
+    description: "RC:nerc-ocp_2"
+    state: "up"
+  swp21:
+    fanout:
+      type: "quad"
+      speed: "10G"
+  swp21s0:
+    description: "RC:nerc-ocp_1"
+    state: "up"
+  swp21s1:
+    description: "RC:nerc-ocp_2"
+    state: "up"
+  swp21s2:
+    description: "RC:nerc-ocp_1"
+    state: "up"
+  swp21s3:
+    description: "RC:nerc-ocp_2"
+    state: "up"
+  swp22:
+    fanout:
+      type: "quad"
+      speed: "10G"
+  swp22s0:
+    description: "RC:nerc-ocp_1"
+    state: "up"
+  swp22s1:
+    description: "RC:nerc-ocp_2"
+    state: "up"
+  swp22s2:
+    description: "NERC:nerc-admin02_1"
+    state: "up"
+  swp22s3:
+    description: "NERC:nerc-admin02_2"
+    state: "up"
+  swp23:
+    fanout:
+      type: "quad"
+      speed: "25G"
+  swp23s0:
+    description: "U21"
+    state: "up"
+  swp23s1:
+    description: "U21"
+    state: "up"
+  swp23s2:
+    description: "U20"
+    state: "up"
+  swp23s3:
+    description: "U20"
+    state: "up"
+  swp24:
+    fanout:
+      type: "quad"
+      speed: "25G"
+  swp24s0:
+    description: "U19"
+    state: "up"
+    speed: "10G"
+    fec: "off"
+    autoneg: false
+    portmode: "access"
+    untagged: 213
+    stp:
+      edgeport: true
+      disabled: true
+  swp24s1:
+    description: "U19"
+    state: "up"
+    fec: "off"
+  swp24s2:
+    description: "U18"
+    state: "up"
+    speed: "10G"
+    fec: "off"
+    autoneg: false
+    portmode: "access"
+    untagged: 213
+    stp:
+      edgeport: true
+      disabled: true
+  swp24s3:
+    description: "U18"
+    state: "up"
+    fec: "off"
+  swp25:
+    fanout:
+      type: "quad"
+      speed: "25G"
+  swp25s0:
+    description: "U17"
+    state: "up"
+    speed: "10G"
+    fec: "off"
+    autoneg: false
+    portmode: "access"
+    untagged: 213
+    stp:
+      edgeport: true
+      disabled: true
+  swp25s1:
+    description: "U17"
+    state: "up"
+    fec: "off"
+  swp25s2:
+    description: "U16"
+    state: "up"
+    portmode: "access"
+    untagged: 213
+    stp:
+      edgeport: true
+      disabled: true
+  swp25s3:
+    description: "U16"
+    state: "up"
+    portmode: "access"
+    untagged: 2311
+    stp:
+      edgeport: true
+      disabled: true
+  swp26:
+    fanout:
+      type: "quad"
+      speed: "10G"
+  swp26s0:
+    description: "U15"
+    state: "up"
+    portmode: "access"
+    untagged: 213
+    stp:
+      edgeport: true
+      disabled: true
+  swp26s1:
+    description: "U15"
+    state: "up"
+    portmode: "access"
+    untagged: 2311
+    stp:
+      edgeport: true
+      disabled: true
+  swp26s2:
+    description: "U14"
+    state: "up"
+    portmode: "access"
+    untagged: 213
+    stp:
+      edgeport: true
+      disabled: true
+  swp26s3:
+    description: "U14"
+    state: "up"
+    portmode: "access"
+    untagged: 2311
+    stp:
+      edgeport: true
+      disabled: true
+  swp27:
+    state: "down"
+  swp28:
+    state: "down"
+  swp29:
+    state: "down"
+  swp30:
+    description: "MOC-R4PCC06-SW-MGMT"
+    state: "up"
+    portmode: "trunk"
+    tagged: "all"
+  swp31:
+    description: "MOC-R4PCC02-SW-TORS"
+    state: "up"
+  swp32:
+    description: "MOC-R4PCC04-SW-TORS"
+    state: "up"
+  bond10:
+    portmode: "trunk"
+    tagged: "all"
+    lacp-rate: "fast"
+    lacp-members-active:
+      - "swp31"
+      - "swp32"
+  bond101:
+    description: "PURE"
+    portmode: "hybrid"
+    untagged: 2304
+    tagged:
+      - 2305:2307
+      - 2310:2318
+    lacp-members-active:
+      - "swp1"
+      - "swp2"
+      - "swp3"
+      - "swp4"
+      - "swp5"
+      - "swp6"
+      - "swp7"
+      - "swp8"
+    stp:
+      edgeport: true
+      disabled: true
+  bond110:
+    description: "RC:ctl-0.nerc-ocp-test_LACP"
+    portmode: "hybrid"
+    untagged: 2174
+    tagged:
+      - 2174:2175
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp9s0"
+      - "swp9s1"
+    stp:
+      edgeport: true
+      disabled: true
+  bond111:
+    description: "RC:ctl-1.nerc-ocp-test_LACP"
+    portmode: "hybrid"
+    untagged: 2174
+    tagged:
+      - 2174:2175
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp9s2"
+      - "swp9s3"
+    stp:
+      edgeport: true
+      disabled: true
+  bond112:
+    description: "RC:ctl-2.nerc-ocp-test_LACP"
+    portmode: "hybrid"
+    untagged: 2174
+    tagged:
+      - 2174:2175
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp10s0"
+      - "swp10s1"
+    stp:
+      edgeport: true
+      disabled: true
+  bond116:
+    description: "RC:wrk-0.nerc-ocp-test_LACP"
+    portmode: "hybrid"
+    untagged: 2174
+    tagged:
+      - 2174:2175
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp10s2"
+      - "swp10s3"
+    stp:
+      edgeport: true
+      disabled: true
+  bond117:
+    description: "RC:wrk-1.nerc-ocp-test_LACP"
+    portmode: "hybrid"
+    untagged: 2174
+    tagged:
+      - 2174:2175
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp11s0"
+      - "swp11s1"
+    stp:
+      edgeport: true
+      disabled: true
+  bond118:
+    description: "RC:wrk-2.nerc-ocp-test_LACP"
+    portmode: "hybrid"
+    untagged: 2174
+    tagged:
+      - 2174:2175
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp11s2"
+      - "swp11s3"
+    stp:
+      edgeport: true
+      disabled: true
+  bond119:
+    description: "RC:wrk-3.nerc-ocp-test_LACP"
+    portmode: "hybrid"
+    untagged: 2174
+    tagged:
+      - 2174:2175
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp12s0"
+      - "swp12s1"
+    stp:
+      edgeport: true
+      disabled: true
+  bond126:
+    description: "RC:nerc-controller03_DATA_LACP"
+    portmode: "hybrid"
+    untagged: 2145
+    tagged:
+      - 2141:2145
+      - 2147:2148
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp12s2"
+      - "swp12s3"
+    stp:
+      edgeport: true
+      disabled: true
+  bond127:
+    description: "RC:nerc-hyp001_DATA_LACP"
+    portmode: "hybrid"
+    untagged: 2145
+    tagged:
+      - 2141
+      - 2143:2145
+      - 2147
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp13s0"
+      - "swp13s1"
+    stp:
+      edgeport: true
+      disabled: true
+  bond128:
+    description: "RC:nerc-admin01_DATA_LACP"
+    portmode: "trunk"
+    tagged:
+      - 2141:2142
+      - 2145
+      - 2147
+      - 2173
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp13s2"
+      - "swp13s3"
+    stp:
+      edgeport: true
+      disabled: true
+  bond129:
+    description: "RC:nerc-controller01_DATA_LACP"
+    portmode: "hybrid"
+    untagged: 2145
+    tagged:
+      - 2141:2145
+      - 2147:2148
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp14s0"
+      - "swp14s1"
+    stp:
+      edgeport: true
+      disabled: true
+  bond130:
+    description: "RC:nerc-controller02_DATA_LACP"
+    portmode: "hybrid"
+    untagged: 2145
+    tagged:
+      - 2141:2145
+      - 2147:2148
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp14s2"
+      - "swp14s3"
+    stp:
+      edgeport: true
+      disabled: true
+  bond137:
+    description: "NERC:os-ctl-0.nerc-shift-0_LACP"
+    portmode: "hybrid"
+    untagged: 2145
+    tagged:
+      - 2145
+      - 2147
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp15s0"
+      - "swp15s1"
+    stp:
+      edgeport: true
+      disabled: true
+  bond138:
+    description: "NERC:os-ctl-1.nerc-shift-0_LACP"
+    portmode: "hybrid"
+    untagged: 2145
+    tagged:
+      - 2145
+      - 2147
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp15s2"
+      - "swp15s3"
+    stp:
+      edgeport: true
+      disabled: true
+  bond139:
+    description: "NERC:os-ctl-2.nerc-shift-0_LACP"
+    portmode: "hybrid"
+    untagged: 2145
+    tagged:
+      - 2145
+      - 2147
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp16s0"
+      - "swp16s1"
+    stp:
+      edgeport: true
+      disabled: true
+  bond140:
+    description: "NERC:nerc-admin03_LACP"
+    portmode: "hybrid"
+    untagged: 2145
+    tagged:
+      - 2142
+      - 2145
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp16s2"
+      - "swp16s3"
+    stp:
+      edgeport: true
+      disabled: true
+  bond201:
+    description: "RC:nerc-svc-hyp001_LACP"
+    portmode: "hybrid"
+    untagged: 2145
+    tagged:
+      - 2142
+      - 2145
+      - 2147
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp17s0"
+      - "swp17s1"
+    stp:
+      edgeport: true
+      disabled: true
+  bond202:
+    description: "RC:nerc-svc-hyp002_LACP"
+    portmode: "hybrid"
+    untagged: 2145
+    tagged:
+      - 2142
+      - 2145
+      - 2147
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp17s2"
+      - "swp17s3"
+    stp:
+      edgeport: true
+      disabled: true
+  bond203:
+    description: "RC:nerc-svc-hyp003_LACP"
+    portmode: "hybrid"
+    untagged: 2145
+    tagged:
+      - 2142
+      - 2145
+      - 2147
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp18s0"
+      - "swp18s1"
+    stp:
+      edgeport: true
+      disabled: true
+  bond207:
+    description: "RC:nerc-ocp_LACP"
+    portmode: "hybrid"
+    untagged: 2176
+    tagged:
+      - 2176:2177
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp18s2"
+      - "swp18s3"
+    stp:
+      edgeport: true
+      disabled: true
+  bond208:
+    description: "RC:nerc-ocp_LACP"
+    portmode: "hybrid"
+    untagged: 2176
+    tagged:
+      - 2176:2177
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp19s0"
+      - "swp19s1"
+    stp:
+      edgeport: true
+      disabled: true
+  bond209:
+    description: "RC:nerc-ocp_LACP"
+    portmode: "hybrid"
+    untagged: 2172
+    tagged:
+      - 2172:2173
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp19s2"
+      - "swp19s3"
+    stp:
+      edgeport: true
+      disabled: true
+  bond210:
+    description: "RC:nerc-ocp_LACP"
+    portmode: "hybrid"
+    untagged: 2172
+    tagged:
+      - 2172:2173
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp20s0"
+      - "swp20s1"
+    stp:
+      edgeport: true
+      disabled: true
+  bond211:
+    description: "RC:nerc-ocp_LACP"
+    portmode: "hybrid"
+    untagged: 2172
+    tagged:
+      - 2172:2173
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp20s2"
+      - "swp20s3"
+    stp:
+      edgeport: true
+      disabled: true
+  bond212:
+    description: "RC:nerc-ocp_LACP"
+    portmode: "hybrid"
+    untagged: 2172
+    tagged:
+      - 2172:2173
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp21s0"
+      - "swp21s1"
+    stp:
+      edgeport: true
+      disabled: true
+  bond213:
+    description: "RC:nerc-ocp_LACP"
+    portmode: "hybrid"
+    untagged: 2176
+    tagged:
+      - 2176:2177
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp21s2"
+      - "swp21s3"
+    stp:
+      edgeport: true
+      disabled: true
+  bond214:
+    description: "RC:nerc-ocp_LACP"
+    portmode: "hybrid"
+    untagged: 2172
+    tagged:
+      - 2172:2173
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp22s0"
+      - "swp22s1"
+    stp:
+      edgeport: true
+      disabled: true
+  bond219:
+    description: "NERC:nerc-admin02_LACP"
+    portmode: "hybrid"
+    untagged: 2145
+    tagged:
+      - 2145
+      - 2180
+    lacp-bypass: true
+    lacp-members-active:
+      - "swp22s2"
+      - "swp22s3"
+    stp:
+      edgeport: true
+      disabled: true
+  vlan930:
+    ip4: "10.80.2.111/20"
+    gateway: "10.80.0.1"

@@ -1,0 +1,167 @@
+interfaces:
+  swp1:
+    fanout:
+      type: "quad"
+  swp1s0:
+    description: "MOC-R4PCC04U38"
+    state: "up"
+    portmode: "hybrid"
+    untagged: 2172
+    tagged:
+      - 2173
+    stp:
+      edgeport: true
+      disabled: true
+  swp1s1:
+    description: "MOC-R4PCC04U37"
+    state: "down"
+  swp1s2:
+    description: "MOC-R4PCC04U36"
+    state: "down"
+  swp1s3:
+    description: "MOC-R4PCC04U35"
+    state: "down"
+  swp2:
+    fanout:
+      type: "quad"
+  swp2s0:
+    description: "MOC-R4PCC04U32"
+    state: "down"
+  swp2s1:
+    description: "MOC-R4PCC04U31"
+    state: "down"
+  swp2s2:
+    description: "MOC-R4PCC04U30"
+    state: "down"
+  swp2s3:
+    description: "MOC-R4PCC04U29"
+    state: "down"
+  swp3:
+    fanout:
+      type: "quad"
+  swp3s0:
+    description: "MOC-R4PCC04U26"
+    state: "down"
+  swp3s1:
+    description: "MOC-R4PCC04U25"
+    state: "down"
+  swp3s2:
+    description: "MOC-R4PCC04U24"
+    state: "down"
+  swp3s3:
+    description: "MOC-R4PCC04U23"
+    state: "down"
+  swp4:
+    fanout:
+      type: "quad"
+  swp4s0:
+    description: "MOC-R4PCC04U18"
+    state: "down"
+  swp4s1:
+    description: "MOC-R4PCC04U17"
+    state: "down"
+  swp4s2:
+    description: "MOC-R4PCC04U16"
+    state: "down"
+  swp4s3:
+    description: "MOC-R4PCC04U15"
+    state: "down"
+  swp5:
+    fanout:
+      type: "quad"
+  swp5s0:
+    description: "MOC-R4PCC04U12"
+    state: "down"
+  swp5s1:
+    description: "MOC-R4PCC04U11"
+    state: "down"
+  swp5s2:
+    description: "MOC-R4PCC04U10"
+    state: "down"
+  swp5s3:
+    description: "MOC-R4PCC04U09"
+    state: "down"
+  swp6:
+    fanout:
+      type: "quad"
+  swp6s0:
+    description: "MOC-R4PCC04U06"
+    state: "down"
+    portmode: "access"
+    untagged: 204
+    stp:
+      edgeport: true
+      disabled: true
+  swp6s1:
+    description: "MOC-R4PCC04U05"
+    state: "down"
+  swp6s2:
+    description: "MOC-R4PCC04U04"
+    state: "down"
+    portmode: "access"
+    untagged: 204
+    stp:
+      edgeport: true
+      disabled: true
+  swp6s3:
+    description: "MOC-R4PCC04U03"
+    state: "down"
+  swp7:
+    state: "down"
+  swp8:
+    state: "down"
+  swp9:
+    state: "down"
+  swp10:
+    state: "down"
+  swp11:
+    state: "down"
+  swp12:
+    state: "down"
+  swp13:
+    state: "down"
+  swp14:
+    state: "down"
+  swp15:
+    state: "down"
+  swp16:
+    state: "down"
+  swp17:
+    state: "down"
+  swp18:
+    state: "down"
+  swp19:
+    state: "down"
+  swp20:
+    state: "down"
+  swp21:
+    state: "down"
+  swp22:
+    state: "down"
+  swp23:
+    state: "down"
+  swp24:
+    state: "down"
+  swp25:
+    state: "down"
+  swp26:
+    state: "down"
+  swp27:
+    state: "down"
+  swp28:
+    state: "down"
+  swp29:
+    state: "down"
+  swp30:
+    state: "down"
+  swp31:
+    state: "up"
+  swp32:
+    state: "up"
+  bond1:
+    portmode: "trunk"
+    tagged: "all"
+    lacp-rate: "fast"
+    lacp-members-active:
+      - "swp31"
+      - "swp32"

@@ -1,0 +1,90 @@
+interfaces:
+  swp1:
+    state: "up"
+    speed: "200G"
+    fec: "rs"
+  swp2:
+    state: "up"
+    speed: "200G"
+    fec: "rs"
+  swp3:
+    state: "down"
+  swp4:
+    state: "down"
+  swp5:
+    state: "down"
+  swp6:
+    state: "down"
+  swp7:
+    state: "down"
+  swp8:
+    state: "down"
+  swp9:
+    state: "down"
+  swp10:
+    state: "down"
+  swp11:
+    state: "down"
+  swp12:
+    state: "down"
+  swp13:
+    state: "down"
+  swp14:
+    state: "down"
+  swp15:
+    state: "down"
+  swp16:
+    state: "down"
+  swp17:
+    state: "down"
+  swp18:
+    state: "down"
+  swp19:
+    state: "down"
+  swp20:
+    state: "down"
+  swp21:
+    state: "down"
+  swp22:
+    state: "down"
+  swp23:
+    state: "down"
+  swp24:
+    state: "down"
+  swp25:
+    state: "down"
+  swp26:
+    state: "down"
+  swp27:
+    state: "down"
+  swp28:
+    state: "down"
+  swp29:
+    state: "up"
+  swp30:
+    state: "up"
+  swp31:
+    state: "up"
+  swp32:
+    state: "up"
+  bond1:
+    description: "NERC-CORE uplink"
+    state: "up"
+    portmode: "trunk"
+    tagged: "all"
+    lacp-rate: "fast"
+    lacp-members-active:
+      - "swp31"
+      - "swp32"
+    mlag: "bond1"
+    stp:
+      disabled: true
+  bond11:
+    description: "R4PCC02/04"
+    portmode: "trunk"
+    tagged: "all"
+    lacp-rate: "fast"
+    lacp-members-active:
+      - "swp1"
+      - "swp2"
+    mlag: "bond11"

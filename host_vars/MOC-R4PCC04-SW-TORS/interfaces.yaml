@@ -1,0 +1,584 @@
+interfaces:
+  swp1:
+    fanout:
+      type: "dual"
+  swp1s0:
+    description: "MOC-R4PCC04U38-1"
+    state: "up"
+    portmode: "access"
+    untagged: 433
+    stp:
+      edgeport: true
+      disabled: true
+  swp1s1:
+    description: "MOC-R4PCC04U38-2"
+    state: "up"
+    portmode: "access"
+    untagged: 433
+    stp:
+      edgeport: true
+      disabled: true
+  swp2:
+    fanout:
+      type: "dual"
+  swp2s0:
+    description: "MOC-R4PCC04U37-1"
+    state: "down"
+    portmode: "access"
+    untagged: 220
+    stp:
+      edgeport: true
+      disabled: true
+  swp2s1:
+    description: "MOC-R4PCC04U37-2"
+    state: "down"
+    portmode: "access"
+    untagged: 2318
+    stp:
+      edgeport: true
+      disabled: true
+  swp3:
+    fanout:
+      type: "dual"
+  swp3s0:
+    description: "MOC-R4PCC04U36-1"
+    state: "down"
+  swp3s1:
+    description: "MOC-R4PCC04U36-2"
+    state: "down"
+  swp4:
+    fanout:
+      type: "dual"
+  swp4s0:
+    description: "MOC-R4PCC04U35-1"
+    state: "up"
+    portmode: "hybrid"
+    untagged: 2172
+    tagged:
+      - 2173
+    stp:
+      edgeport: true
+      disabled: true
+  swp4s1:
+    description: "MOC-R4PCC04U35-2"
+    state: "down"
+  swp5:
+    fanout:
+      type: "dual"
+  swp5s0:
+    description: "MOC-R4PCC04U32-1"
+    state: "down"
+    portmode: "access"
+    untagged: 220
+    stp:
+      edgeport: true
+      disabled: true
+  swp5s1:
+    description: "MOC-R4PCC04U32-2"
+    state: "down"
+    portmode: "access"
+    untagged: 2318
+    stp:
+      edgeport: true
+      disabled: true
+  swp6:
+    fanout:
+      type: "dual"
+  swp6s0:
+    description: "MOC-R4PCC04U31-1"
+    state: "down"
+  swp6s1:
+    description: "MOC-R4PCC04U31-2"
+    state: "down"
+  swp7:
+    fanout:
+      type: "dual"
+  swp7s0:
+    description: "MOC-R4PCC04U30-1"
+    state: "down"
+  swp7s1:
+    description: "MOC-R4PCC04U30-2"
+    state: "down"
+  swp8:
+    fanout:
+      type: "dual"
+  swp8s0:
+    description: "MOC-R4PCC04U29-1"
+    state: "down"
+  swp8s1:
+    description: "MOC-R4PCC04U29-2"
+    state: "down"
+  swp9:
+    fanout:
+      type: "dual"
+  swp9s0:
+    description: "MOC-R4PCC04U26-1"
+    state: "down"
+  swp9s1:
+    description: "MOC-R4PCC04U26-2"
+    state: "down"
+  swp10:
+    fanout:
+      type: "dual"
+  swp10s0:
+    description: "MOC-R4PCC04U25-1"
+    state: "down"
+  swp10s1:
+    description: "MOC-R4PCC04U25-2"
+    state: "down"
+  swp11:
+    fanout:
+      type: "dual"
+  swp11s0:
+    description: "MOC-R4PCC04U24-1"
+    state: "down"
+  swp11s1:
+    description: "MOC-R4PCC04U24-2"
+    state: "down"
+  swp12:
+    fanout:
+      type: "dual"
+  swp12s0:
+    description: "MOC-R4PCC04U23-1"
+    state: "down"
+  swp12s1:
+    description: "MOC-R4PCC04U23-2"
+    state: "down"
+  swp13:
+    fanout:
+      type: "dual"
+  swp13s0:
+    description: "MOC-R4PCC04U18-1"
+    state: "down"
+  swp13s1:
+    description: "MOC-R4PCC04U18-2"
+    state: "down"
+  swp14:
+    fanout:
+      type: "dual"
+  swp14s0:
+    description: "MOC-R4PCC04U17-1"
+    state: "down"
+  swp14s1:
+    description: "MOC-R4PCC04U17-2"
+    state: "down"
+  swp15:
+    fanout:
+      type: "dual"
+  swp15s0:
+    description: "MOC-R4PCC04U16-1"
+    state: "up"
+    portmode: "access"
+    untagged: 216
+    stp:
+      edgeport: true
+      disabled: true
+  swp15s1:
+    description: "MOC-R4PCC04U16-2"
+    state: "up"
+    portmode: "access"
+    untagged: 2313
+    stp:
+      edgeport: true
+      disabled: true
+  swp16:
+    fanout:
+      type: "dual"
+  swp16s0:
+    description: "MOC-R4PCC04U15-1"
+    state: "down"
+  swp16s1:
+    description: "MOC-R4PCC04U15-2"
+    state: "down"
+  swp17:
+    fanout:
+      type: "dual"
+  swp17s0:
+    description: "MOC-R4PCC04U12-1"
+    state: "up"
+    portmode: "access"
+    untagged: 216
+    stp:
+      edgeport: true
+      disabled: true
+  swp17s1:
+    description: "MOC-R4PCC04U12-2"
+    state: "up"
+    portmode: "access"
+    untagged: 2313
+    stp:
+      edgeport: true
+      disabled: true
+  swp18:
+    fanout:
+      type: "dual"
+  swp18s0:
+    description: "MOC-R4PCC04U11-1"
+    state: "up"
+    portmode: "access"
+    untagged: 216
+    stp:
+      edgeport: true
+      disabled: true
+  swp18s1:
+    description: "MOC-R4PCC04U11-2"
+    state: "up"
+    portmode: "access"
+    untagged: 2313
+    stp:
+      edgeport: true
+      disabled: true
+  swp19:
+    fanout:
+      type: "dual"
+  swp19s0:
+    description: "MOC-R4PCC04U10-1"
+    state: "down"
+  swp19s1:
+    description: "MOC-R4PCC04U10-2"
+    state: "down"
+  swp20:
+    fanout:
+      type: "dual"
+  swp20s0:
+    description: "MOC-R4PCC04U09-1"
+    state: "up"
+    portmode: "access"
+    untagged: 216
+    stp:
+      edgeport: true
+      disabled: true
+  swp20s1:
+    description: "MOC-R4PCC04U09-2"
+    state: "up"
+    portmode: "access"
+    untagged: 2313
+    stp:
+      edgeport: true
+      disabled: true
+  swp21:
+    fanout:
+      type: "dual"
+  swp21s0:
+    description: "MOC-R4PCC04U06-1"
+    state: "down"
+  swp21s1:
+    description: "MOC-R4PCC04U06-2"
+    state: "down"
+  swp22:
+    fanout:
+      type: "dual"
+  swp22s0:
+    description: "MOC-R4PCC04U05-1"
+    state: "down"
+  swp22s1:
+    description: "MOC-R4PCC04U05-2"
+    state: "down"
+  swp23:
+    fanout:
+      type: "dual"
+  swp23s0:
+    description: "MOC-R4PCC04U04-1"
+    state: "down"
+  swp23s1:
+    description: "MOC-R4PCC04U04-2"
+    state: "down"
+  swp24:
+    fanout:
+      type: "dual"
+  swp24s0:
+    description: "MOC-R4PCC04U03-1"
+    state: "down"
+  swp24s1:
+    description: "MOC-R4PCC04U03-2"
+    state: "down"
+  swp25:
+    fanout:
+      type: "dual"
+  swp25s0:
+    description: "MOC-R4PCC04U38-3"
+    state: "up"
+    portmode: "access"
+    untagged: 433
+    stp:
+      edgeport: true
+      disabled: true
+  swp25s1:
+    description: "MOC-R4PCC04U38-4"
+    state: "up"
+    portmode: "access"
+    untagged: 433
+    stp:
+      edgeport: true
+      disabled: true
+  swp26:
+    fanout:
+      type: "dual"
+  swp26s0:
+    description: "MOC-R4PCC04U37-3"
+    state: "down"
+  swp26s1:
+    description: "MOC-R4PCC04U37-4"
+    state: "down"
+  swp27:
+    fanout:
+      type: "dual"
+  swp27s0:
+    description: "MOC-R4PCC04U36-3"
+    state: "down"
+  swp27s1:
+    description: "MOC-R4PCC04U36-4"
+    state: "down"
+  swp28:
+    fanout:
+      type: "dual"
+  swp28s0:
+    description: "MOC-R4PCC04U35-3"
+    state: "down"
+  swp28s1:
+    description: "MOC-R4PCC04U35-4"
+    state: "down"
+  swp29:
+    fanout:
+      type: "dual"
+  swp29s0:
+    description: "MOC-R4PCC04U32-3"
+    state: "down"
+  swp29s1:
+    description: "MOC-R4PCC04U32-4"
+    state: "down"
+  swp30:
+    fanout:
+      type: "dual"
+  swp30s0:
+    description: "MOC-R4PCC04U31-3"
+    state: "down"
+  swp30s1:
+    description: "MOC-R4PCC04U31-4"
+    state: "down"
+  swp31:
+    fanout:
+      type: "dual"
+  swp31s0:
+    description: "MOC-R4PCC04U30-3"
+    state: "down"
+  swp31s1:
+    description: "MOC-R4PCC04U30-4"
+    state: "down"
+  swp32:
+    fanout:
+      type: "dual"
+  swp32s0:
+    description: "MOC-R4PCC04U29-3"
+    state: "down"
+  swp32s1:
+    description: "MOC-R4PCC04U29-4"
+    state: "down"
+  swp33:
+    fanout:
+      type: "dual"
+  swp33s0:
+    description: "MOC-R4PCC04U26-3"
+    state: "down"
+  swp33s1:
+    description: "MOC-R4PCC04U26-4"
+    state: "down"
+  swp34:
+    fanout:
+      type: "dual"
+  swp34s0:
+    description: "MOC-R4PCC04U25-3"
+    state: "down"
+  swp34s1:
+    description: "MOC-R4PCC04U25-4"
+    state: "down"
+  swp35:
+    fanout:
+      type: "dual"
+  swp35s0:
+    description: "MOC-R4PCC04U24-3"
+    state: "down"
+  swp35s1:
+    description: "MOC-R4PCC04U24-4"
+    state: "down"
+  swp36:
+    fanout:
+      type: "dual"
+  swp36s0:
+    description: "MOC-R4PCC04U23-3"
+    state: "down"
+  swp36s1:
+    description: "MOC-R4PCC04U23-4"
+    state: "down"
+  swp37:
+    fanout:
+      type: "dual"
+  swp37s0:
+    description: "MOC-R4PCC04U18-3"
+    state: "down"
+  swp37s1:
+    description: "MOC-R4PCC04U18-4"
+    state: "down"
+  swp38:
+    fanout:
+      type: "dual"
+  swp38s0:
+    description: "MOC-R4PCC04U17-3"
+    state: "down"
+  swp38s1:
+    description: "MOC-R4PCC04U17-4"
+    state: "down"
+  swp39:
+    fanout:
+      type: "dual"
+  swp39s0:
+    description: "MOC-R4PCC04U16-3"
+    state: "down"
+  swp39s1:
+    description: "MOC-R4PCC04U16-4"
+    state: "down"
+  swp40:
+    fanout:
+      type: "dual"
+  swp40s0:
+    description: "MOC-R4PCC04U15-3"
+    state: "down"
+  swp40s1:
+    description: "MOC-R4PCC04U15-4"
+    state: "down"
+  swp41:
+    fanout:
+      type: "dual"
+  swp41s0:
+    description: "MOC-R4PCC04U12-3"
+    state: "down"
+  swp41s1:
+    description: "MOC-R4PCC04U12-4"
+    state: "down"
+  swp42:
+    fanout:
+      type: "dual"
+  swp42s0:
+    description: "MOC-R4PCC04U11-3"
+    state: "down"
+  swp42s1:
+    description: "MOC-R4PCC04U11-4"
+    state: "down"
+  swp43:
+    fanout:
+      type: "dual"
+  swp43s0:
+    description: "MOC-R4PCC04U10-3"
+    state: "down"
+  swp43s1:
+    description: "MOC-R4PCC04U10-4"
+    state: "down"
+  swp44:
+    fanout:
+      type: "dual"
+  swp44s0:
+    description: "MOC-R4PCC04U09-3"
+    state: "down"
+  swp44s1:
+    description: "MOC-R4PCC04U09-4"
+    state: "down"
+  swp45:
+    fanout:
+      type: "dual"
+  swp45s0:
+    description: "MOC-R4PCC04U06-3"
+    state: "down"
+  swp45s1:
+    description: "MOC-R4PCC04U06-4"
+    state: "down"
+  swp46:
+    fanout:
+      type: "dual"
+  swp46s0:
+    description: "MOC-R4PCC04U05-3"
+    state: "down"
+  swp46s1:
+    description: "MOC-R4PCC04U05-4"
+    state: "down"
+  swp47:
+    fanout:
+      type: "dual"
+  swp47s0:
+    description: "MOC-R4PCC04U04-3"
+    state: "down"
+  swp47s1:
+    description: "MOC-R4PCC04U04-4"
+    state: "down"
+  swp48:
+    fanout:
+      type: "dual"
+  swp48s0:
+    description: "MOC-R4PCC04U03-3"
+    state: "down"
+  swp48s1:
+    description: "MOC-R4PCC04U03-4"
+    state: "down"
+  swp49:
+    fanout:
+      type: "dual"
+  swp49s0:
+    description: "EMS-S4-P1"
+    state: "up"
+  swp49s1:
+    description: "MOC-R4PCC06-SW-TORS-2"
+    state: "up"
+  swp50:
+    state: "up"
+  swp51:
+    state: "up"
+  swp52:
+    state: "up"
+  swp53:
+    state: "up"
+  swp54:
+    state: "up"
+  swp55:
+    state: "up"
+  swp56:
+    fanout:
+      type: "dual"
+  swp56s0:
+    state: "up"
+  swp56s1:
+    state: "up"
+  swp57:
+    state: "up"
+  swp58:
+    state: "up"
+  swp59:
+    state: "up"
+  swp60:
+    state: "up"
+  swp61:
+    state: "up"
+  swp62:
+    state: "up"
+  swp63:
+    state: "up"
+  swp64:
+    state: "up"
+  bond1:
+    description: "GPU-CORE"
+    portmode: "trunk"
+    tagged: "all"
+    lacp-rate: "fast"
+    lacp-members-active:
+      - "swp56s0"
+      - "swp56s1"
+    mlag: "bond1"
+  bond10:
+    description: "MOC-R4PCC06-SW-TORS"
+    portmode: "trunk"
+    tagged: "all"
+    lacp-members-active:
+      - "swp49s0"
+      - "swp49s1"
+    mlag: "bond10"
+  vlan935:
+    ip4: "10.82.2.101/20"
+    gateway: "10.82.0.1"
