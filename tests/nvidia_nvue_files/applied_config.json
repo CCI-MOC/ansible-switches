@@ -1,0 +1,164 @@
+[
+  {
+    "header": {
+      "model": "VX",
+      "nvue-api-version": "nvue_v1",
+      "rev-id": 1.0,
+      "version": "Cumulus Linux 5.11.0"
+    }
+  },
+  {
+    "set": {
+      "bridge": {
+        "domain": {
+          "br_default": {
+            "vlan": {
+              "10,20,30": {},
+              "40-41": {}
+            }
+          }
+        }
+      },
+      "interface": {
+        "bond1": {
+          "bond": {
+            "member": {
+              "swp1": {}
+            },
+            "mlag": {
+              "enable": "on",
+              "id": 1
+            }
+          },
+          "bridge": {
+            "domain": {
+              "br_default": {}
+            }
+          },
+          "type": "bond"
+        },
+        "bond3": {
+          "bond": {
+            "member": {
+              "swp3": {}
+            },
+            "mlag": {
+              "enable": "on",
+              "id": 3
+            }
+          },
+          "bridge": {
+            "domain": {
+              "br_default": {}
+            }
+          },
+          "type": "bond"
+        },
+        "eth0": {
+          "ip": {
+            "address": {
+              "dhcp": {}
+            },
+            "vrf": "mgmt"
+          },
+          "type": "eth"
+        },
+        "lo": {
+          "ip": {
+            "address": {
+              "10.10.10.1/32": {}
+            }
+          },
+          "type": "loopback"
+        },
+        "peerlink": {
+          "bond": {
+            "member": {
+              "swp49": {},
+              "swp50": {}
+            }
+          },
+          "type": "peerlink"
+        },
+        "peerlink.4094": {
+          "base-interface": "peerlink",
+          "type": "sub",
+          "vlan": 4094
+        },
+        "swp1": {
+          "type": "swp"
+        },
+        "swp2": {
+          "description": "old description",
+          "link": {
+            "mtu": 1500
+          },
+          "type": "swp"
+        },
+        "swp3": {
+          "type": "swp"
+        },
+        "swp5": {
+          "link": {
+            "breakout": {
+              "4x": {}
+            }
+          },
+          "type": "swp"
+        },
+        "swp5s0": {
+          "type": "swp"
+        },
+        "swp5s1": {
+          "type": "swp"
+        },
+        "swp5s2": {
+          "type": "swp"
+        },
+        "swp5s3": {
+          "type": "swp"
+        },
+        "swp49": {
+          "type": "swp"
+        },
+        "swp50": {
+          "type": "swp"
+        },
+        "vlan10": {
+          "ip": {
+            "address": {
+              "10.1.10.2/24": {}
+            }
+          },
+          "type": "svi",
+          "vlan": 10
+        },
+        "vlan30": {
+          "ip": {
+            "address": {
+              "10.1.30.2/24": {}
+            }
+          },
+          "type": "svi",
+          "vlan": 30
+        }
+      },
+      "mlag": {
+        "backup": {
+          "10.10.10.2": {}
+        },
+        "enable": "on",
+        "init-delay": 100,
+        "peer-ip": "linklocal"
+      },
+      "system": {
+        "config": {
+          "auto-save": {
+            "state": "enabled"
+          }
+        },
+        "hostname": "leaf01"
+      }
+    }
+  }
+]

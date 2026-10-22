@@ -10,3 +10,7 @@
 - name: Import Cisco NXOS Tasks
   ansible.builtin.include_tasks: cisco_nxos.yaml
   when: ansible_network_os == "cisco.nxos.nxos"
+
+- name: Import NVIDIA Cumulus Linux Tasks
+  ansible.builtin.include_tasks: nvidia_nvue.yaml
+  when: ansible_network_os == "nvidia.nvue"

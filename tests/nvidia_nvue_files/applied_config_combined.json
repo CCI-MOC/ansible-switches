@@ -1,0 +1,148 @@
+[
+  {
+    "header": {
+      "model": "msn3700",
+      "nvue-api-version": "nvue_v1",
+      "rev-id": 1.0,
+      "version": "Cumulus Linux 5.11.0"
+    }
+  },
+  {
+    "set": {
+      "bridge": {
+        "domain": {
+          "br_default": {
+            "stp": {
+              "mode": "rstp",
+              "priority": 4096,
+              "state": {
+                "up": {}
+              }
+            },
+            "vlan": {
+              "203-204,211,213-214,216-220,300,350-630,911-912,916-917,930,935,2076,2141-2148,2170,2172-2177,2180,2300-2308,2310-2318": {}
+            }
+          }
+        }
+      },
+      "interface": {
+        "bond1": {
+          "bond": {
+            "member": {
+              "swp31": {},
+              "swp32": {}
+            },
+            "mlag": {
+              "id": 1
+            }
+          },
+          "bridge": {
+            "domain": {
+              "br_default": {
+                "stp": {
+                  "bpdu-filter": "on"
+                }
+              }
+            }
+          },
+          "description": "NERC-CORE uplink"
+        },
+        "bond1,11": {
+          "bond": {
+            "lacp-rate": "fast",
+            "mlag": {
+              "enable": "on"
+            }
+          },
+          "type": "bond"
+        },
+        "bond1,swp1-2,29-30": {
+          "link": {
+            "state": {
+              "up": {}
+            }
+          }
+        },
+        "bond11": {
+          "bond": {
+            "member": {
+              "swp1": {},
+              "swp2": {}
+            },
+            "mlag": {
+              "id": 11
+            }
+          },
+          "bridge": {
+            "domain": {
+              "br_default": {}
+            }
+          },
+          "description": "R4PCC02/04"
+        },
+        "eth0": {
+          "ip": {
+            "address": {
+              "10.80.1.21/20": {}
+            },
+            "gateway": {
+              "10.80.0.1": {}
+            },
+            "vrf": "mgmt"
+          },
+          "type": "eth"
+        },
+        "peerlink": {
+          "bond": {
+            "member": {
+              "swp29": {},
+              "swp30": {}
+            }
+          },
+          "type": "peerlink"
+        },
+        "peerlink.4094": {
+          "base-interface": "peerlink",
+          "type": "sub",
+          "vlan": 4094
+        },
+        "swp1-2": {
+          "link": {
+            "fec": "rs",
+            "speed": "200G"
+          }
+        },
+        "swp1-2,29-30": {
+          "type": "swp"
+        },
+        "vlan2304": {
+          "ip": {
+            "address": {
+              "10.7.0.91/20": {}
+            }
+          },
+          "type": "svi",
+          "vlan": 2304
+        }
+      },
+      "mlag": {
+        "backup": {
+          "10.80.1.22": {
+            "vrf": "mgmt"
+          }
+        },
+        "enable": "on",
+        "mac-address": "44:38:39:ff:00:00",
+        "peer-ip": "linklocal"
+      },
+      "system": {
+        "config": {
+          "auto-save": {
+            "state": "enabled"
+          }
+        },
+        "hostname": "GPU-CORE-1"
+      }
+    }
+  }
+]

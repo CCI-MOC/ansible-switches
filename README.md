@@ -6,7 +6,7 @@ Ansible site for MOC/OCT switches
 
 * Dell OS9 (FTOS9)
 * Cisco NXOS
-* Cumulus Linux 5 (WIP)
+* NVIDIA Cumulus Linux 5.X (NVUE)
 * PicOS 8 (WIP)
 
 ## Site Setup
@@ -26,29 +26,32 @@ Ansible site for MOC/OCT switches
 
 | Parameter | Dell OS9 | Cisco NXOS | Cumulus Linux 5 | PicOS 8 |
 |-----------|----------|------------|-----------------|---------|
-| description | ✅ | ✅ | ❌ | ❌ |
-| state | ✅ | ✅ | ❌ | ❌ |
-| mtu | ✅ | ✅ | ❌ | ❌ |
-| fec | ✅ | ✅ | ❌ | ❌ |
-| autoneg | ✅ | ✅ | ❌ | ❌ |
-| stp/edgeport | ✅ | ✅ | ❌ | ❌ |
-| stp/bpduguard | ✅ | ✅ | ❌ | ❌ |
-| stp/rootguard | ✅ | ✅ | ❌ | ❌ |
-| stp/disabled | ✅ | ✅ | ❌ | ❌ |
-| fanout | ✅ | ✅ | ❌ | ❌ |
-| managed | ❌ | ✅ | ❌ | ❌ |
+| description | ✅ | ✅ | ✅ | ❌ |
+| state | ✅ | ✅ | ✅ | ❌ |
+| mtu | ✅ | ✅ | ✅ | ❌ |
+| fec | ✅ | ✅ | ✅ | ❌ |
+| autoneg | ✅ | ✅ | ✅ | ❌ |
+| speed | ❌ | ✅ | ✅ | ❌ |
+| stp/edgeport | ✅ | ✅ | ✅ | ❌ |
+| stp/bpduguard | ✅ | ✅ | ✅ | ❌ |
+| stp/rootguard | ✅ | ✅ | ✅ | ❌ |
+| stp/disabled | ✅ | ✅ | ✅ | ❌ |
+| fanout | ✅ | ✅ | ✅ | ❌ |
+| managed | ❌ | ✅ | ✅ | ❌ |
 | allowlist | ✅ | ❌ | ❌ | ❌ |
 | blocklist | ✅ | ❌ | ❌ | ❌ |
-| portmode | ✅ | ✅ | ❌ | ❌ |
-| untagged | ✅ | ✅ | ❌ | ❌ |
-| tagged | ✅ | ✅ | ❌ | ❌ |
-| ip4 | ✅ | ✅ | ❌ | ❌ |
-| ip6 | ✅ | ✅ | ❌ | ❌ |
-| lag-members | ✅ | ✅ | ❌ | ❌ |
-| lacp-members-active | ✅ | ✅ | ❌ | ❌ |
+| portmode | ✅ | ✅ | ✅ | ❌ |
+| untagged | ✅ | ✅ | ✅ | ❌ |
+| tagged | ✅ | ✅ | ✅ | ❌ |
+| ip4 | ✅ | ✅ | ✅ | ❌ |
+| ip6 | ✅ | ✅ | ✅ | ❌ |
+| gateway | ❌ | ❌ | ✅ | ❌ |
+| lag-members | ✅ | ✅ | ✅ | ❌ |
+| lacp-members-active | ✅ | ✅ | ✅ | ❌ |
 | lacp-members-passive | ✅ | ✅ | ❌ | ❌ |
-| lacp-rate | ✅ | ✅ | ❌ | ❌ |
-| mlag | ✅ | ✅ | ❌ | ❌ |
+| lacp-rate | ✅ | ✅ | ✅ | ❌ |
+| lacp-bypass | ❌ | ❌ | ✅ | ❌ |
+| mlag | ✅ | ✅ | ✅ | ❌ |
 
 ## Configuration
 
@@ -64,9 +67,10 @@ Ansible site for MOC/OCT switches
 
 * `description` Sets the description of the interface. (String)
 * `state` Sets the admin state of the mode ("up", or "down")
-* `mtu` Sets the MTU of the interface (Integer 576-9416)
+* `mtu` Sets the MTU of the interface (Integer 576-9416, 552-9216 on Cumulus)
 * `fec` If false, forward-error-correction is disabled on the interface (Boolean)
 * `autoneg` If false, auto-negotiation is disabled on the interface (Boolean)
+* `speed` Sets the link speed of the interface (Cumulus: String such as `"25G"`, `"200G"`, `"100M"` or `"auto"`)
 * `stp` Sets STP Parameters
   * `edgeport` Sets whether port should be an edge port (Boolean)
   * `bpduguard` Enables BPDUguard on an interface (Boolean)
@@ -83,10 +87,12 @@ Ansible site for MOC/OCT switches
 * `tagged` List of vlans to tag, requires portmode trunk or hybrid (List of Integers 2-4094)
 * `ip4` Sets the IPv4 address of the interface (String "X.X.X.X/YY")
 * `ip6` Sets the IPv6 address of the interface (String)
+* `gateway` Sets the default gateway of the interface (String, or List of Strings for an IPv4 and an IPv6 gateway)
 * `lag-members` List of non-LACP lag members for a port channel (List of Strings, interface names)
 * `lacp-members-active` List of LACP active members for a port channel (List of Strings, interface names)
 * `lacp-members-passive` List of LACP passive members for a port channel (List of Strings, interface names)
 * `lacp-rate` Sets the switch rate for LACP only (String "fast" or "slow")
+* `lacp-bypass` If true, an LACP port channel forwards before LACP comes up, for example while a server PXE boots (Boolean)
 * `mlag` Set the label of the peer port-channel for a paired switch (String interface name)
 
 ## MOC Specific Documentation

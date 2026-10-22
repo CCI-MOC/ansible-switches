@@ -1,0 +1,89 @@
+---
+- name: Detach Stale Pending Configuration
+  ansible.builtin.raw: nv config detach
+  changed_when: false
+  failed_when: false
+  check_mode: false
+
+- name: Read Stale Pending Configuration
+  ansible.builtin.raw: nv config diff
+  register: nvue_stale_diff
+  changed_when: false
+  failed_when: false
+  check_mode: false
+
+- name: Stop On Stale Pending Configuration
+  ansible.builtin.fail:
+    msg: >-
+      The pending NVUE configuration could not be cleared, so nothing was staged
+      or applied. Run "nv config detach" on the switch, check that "nv config
+      diff" shows nothing, and run again.
+      {{ (nvue_stale_diff.stdout ~ nvue_stale_diff.stderr) | trim }}
+  when: >-
+    nvue_stale_diff.rc not in [0, 1]
+    or nvue_stale_diff.stdout | trim not in ["", "[]", "{}"]
+
+- name: Gather System Information
+  ansible.builtin.raw: nv show system -o json || nv show --output json system
+  register: nvue_system
+  changed_when: false
+  check_mode: false
+
+- name: Gather Applied Configuration
+  ansible.builtin.raw: nv config show -o json
+  register: nvue_applied
+  changed_when: false
+  check_mode: false
+
+- name: Generate Configuration Commands
+  vars:
+    nvue_applied_config: "{{ nvue_applied.stdout | from_json }}"
+    nvue_system_info: "{{ nvue_system.stdout | from_json }}"
+  ansible.builtin.set_fact:
+    nvue_commands: "{{ (nvue_applied_config | NVUE_PREPCONFIG(inventory_hostname, nvue_system_info)) + (nvue_applied_config | NVUE_GETCONFIG(interfaces, vlans_host, nvue_system_info)) }}"
+
+- name: Stage Configuration
+  ansible.builtin.raw: |
+    set -e
+    {% for cmd in nvue_commands %}
+    {{ cmd }}
+    {% endfor %}
+  changed_when: false
+  check_mode: false
+
+- name: Compare Pending and Applied Configuration
+  ansible.builtin.raw: nv config diff
+  register: nvue_diff
+  changed_when: nvue_diff.stdout | trim not in ["", "[]", "{}"]
+  failed_when: nvue_diff.rc not in [0, 1] or "error" in (nvue_diff.stderr | lower)
+  check_mode: false
+
+- name: Show Pending Changes
+  ansible.builtin.debug:
+    var: nvue_diff.stdout_lines
+  when: nvue_diff is changed
+
+- name: Apply Configuration
+  ansible.builtin.raw: nv config apply --assume-yes
+  when: nvue_diff is changed and not (diff_only | default(false) | bool)
+
+- name: Save Configuration
+  when: nvue_diff is changed and not (diff_only | default(false) | bool)
+  block:
+    - name: Save Configuration
+      ansible.builtin.raw: nv config save
+  rescue:
+    - name: Report Failed Save
+      ansible.builtin.fail:
+        msg: >-
+          The configuration was applied but saving it failed, so the switch
+          reverts to its old startup configuration on reboot. Run "nv config
+          save" on the switch.
+          {{ (ansible_failed_result.stdout | default("") ~ ansible_failed_result.stderr | default("")) | trim }}
+
+- name: Discard Unapplied Configuration
+  ansible.builtin.raw: nv config detach
+  changed_when: false
+  failed_when: false
+  check_mode: false
+  when: ansible_check_mode or (diff_only | default(false) | bool)
