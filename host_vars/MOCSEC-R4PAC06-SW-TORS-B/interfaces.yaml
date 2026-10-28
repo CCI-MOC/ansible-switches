@@ -90,7 +90,7 @@ interfaces:
     description: "U23-S1-P1_INFRACTRL3_2"
     state: "up"
     portmode: "access"
-    untagged: 2305
+    untagged: 2317
     stp:
       edgeport: true
   twentyFiveGigE 1/6/3:
@@ -100,7 +100,7 @@ interfaces:
     description: "U25-S1-P1_INFRACTRL2_2"
     state: "up"
     portmode: "access"
-    untagged: 2305
+    untagged: 2317
     stp:
       edgeport: true
   hundredGigE 1/7:
@@ -114,7 +114,7 @@ interfaces:
     description: "U27-S1-P1_INFRACTRL1_2"
     state: "up"
     portmode: "access"
-    untagged: 2305
+    untagged: 2317
     stp:
       edgeport: true
   twentyFiveGigE 1/7/3:

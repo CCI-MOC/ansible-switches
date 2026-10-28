@@ -89,11 +89,8 @@ interfaces:
   twentyFiveGigE 1/6/2:
     description: "U23-S1-P1_INFRACTRL3_1"
     state: "up"
-    portmode: "hybrid"
-    untagged: 203
-    tagged:
-      - 206
-      - 207
+    portmode: "access"
+    untagged: 219
     stp:
       edgeport: true
   twentyFiveGigE 1/6/3:
@@ -102,11 +99,8 @@ interfaces:
   twentyFiveGigE 1/6/4:
     description: "U25-S1-P1_INFRACTRL2_1"
     state: "up"
-    portmode: "hybrid"
-    untagged: 203
-    tagged:
-      - 206
-      - 207
+    portmode: "access"
+    untagged: 219
     stp:
       edgeport: true
   hundredGigE 1/7:
@@ -119,11 +113,8 @@ interfaces:
   twentyFiveGigE 1/7/2:
     description: "U27-S1-P1_INFRACTRL1_1"
     state: "up"
-    portmode: "hybrid"
-    untagged: 203
-    tagged:
-      - 206
-      - 207
+    portmode: "access"
+    untagged: 219
     stp:
       edgeport: true
   twentyFiveGigE 1/7/3:
@@ -348,6 +339,7 @@ interfaces:
     portmode: "trunk"
     tagged:
       - 203
+      - 219
       - 2305
       - 2306
       - 2307

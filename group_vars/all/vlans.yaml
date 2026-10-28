@@ -124,6 +124,7 @@ vlans:
     fabrics:
       - moc
       - moc2
+      - mocsecdata
   - id: 220
     name: NIST-DEV-WORKLOAD0
     description: NIST Dev Workload0 Cluster

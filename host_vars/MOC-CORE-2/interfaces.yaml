@@ -273,6 +273,7 @@ interfaces:
     state: "up"
     portmode: "trunk"
     tagged:
+      - 204
       - 212:214
       - 216:220
       - 568

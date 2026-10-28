@@ -6,6 +6,7 @@ interfaces:
     portmode: "trunk"
     tagged:
       - 203
+      - 219
       - 2305
       - 2306
       - 2307
