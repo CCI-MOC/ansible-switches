@@ -147,7 +147,7 @@ interfaces:
       - 916:917
       - 930
       - 2304:2307
-      - 2310:2318
+      - 2310:2320
     lacp-rate: "fast"
     lacp-members-active:
       - "swp3"
@@ -191,7 +191,7 @@ interfaces:
     untagged: 2304
     tagged:
       - 2305:2307
-      - 2310:2318
+      - 2310:2320
     lacp-members-active:
       - "swp25"
       - "swp26"
