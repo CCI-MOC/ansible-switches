@@ -266,17 +266,32 @@ interfaces:
       type: "quad"
       speed: "10G"
   TenGigabitEthernet 1/21/1:
-    description: "U31-S1A-P1"
-    allowlist:
-      - "description"
+    description: "U31-S1A-P1 BU IST Demo Infra Control 1"
+    state: "up"
+    mtu: 9216
+    portmode: "access"
+    untagged: 223
+    stp:
+      edgeport: true
+      bpduguard: true
   TenGigabitEthernet 1/21/2:
-    description: "U31-S1B-P1"
-    allowlist:
-      - "description"
+    description: "U31-S1B-P1 BU IST Demo Workload 1"
+    state: "up"
+    mtu: 9216
+    portmode: "access"
+    untagged: 224
+    stp:
+      edgeport: true
+      bpduguard: true
   TenGigabitEthernet 1/21/3:
-    description: "U31-S1C-P1"
-    allowlist:
-      - "description"
+    description: "U31-S1C-P1 BU IST Demo Workload 2"
+    state: "up"
+    mtu: 9216
+    portmode: "access"
+    untagged: 224
+    stp:
+      edgeport: true
+      bpduguard: true
   TenGigabitEthernet 1/21/4:
     description: "U31-S1D-P1"
     allowlist:
@@ -328,9 +343,14 @@ interfaces:
       edgeport: true
       bpduguard: true
   TenGigabitEthernet 1/23/4:
-    description: "U33-S1D-P1"
-    allowlist:
-      - "description"
+    description: "U33-S1D-P1 BU IST Demo Infra Control 2"
+    state: "up"
+    mtu: 9216
+    portmode: "access"
+    untagged: 223
+    stp:
+      edgeport: true
+      bpduguard: true
   hundredGigE 1/24:
     fanout:
       type: "quad"
@@ -361,9 +381,14 @@ interfaces:
       type: "quad"
       speed: "10G"
   TenGigabitEthernet 1/25/1:
-    description: "U35-S1A-P1"
-    allowlist:
-      - "description"
+    description: "U35-S1A-P1 BU IST Demo Infra Control 3"
+    state: "up"
+    mtu: 9216
+    portmode: "access"
+    untagged: 223
+    stp:
+      edgeport: true
+      bpduguard: true
   TenGigabitEthernet 1/25/2:
     description: "U35-S1B-P1"
     allowlist:
