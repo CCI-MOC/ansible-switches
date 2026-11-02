@@ -1,6 +1,0 @@
-# yamllint disable
----
-sw_secret: "{{ lookup('amazon.aws.aws_secret', 'net/moc/dell-dev') }}"
-ansible_ssh_user: "{{ sw_secret['user'] }}"
-ansible_ssh_pass: "{{ sw_secret['pass'] }}"
-ansible_become_pass: "{{ sw_secret['pass'] }}"

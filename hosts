@@ -1,29 +1,3 @@
-[oct]
-# OCT Core Switches
-OCT-CORE-1       ansible_host=10.81.1.1 ansible_network_os=dellemc.os9.os9
-OCT-CORE-2       ansible_host=10.81.1.2 ansible_network_os=dellemc.os9.os9
-OCT-CORE-3       ansible_host=10.81.1.3 ansible_network_os=dellemc.os9.os9
-OCT-CORE-4       ansible_host=10.81.1.4 ansible_network_os=dellemc.os9.os9
-# OCT Management Core Switches
-OCT-MCORE-1      ansible_host=10.81.1.11    ansible_network_os=dellemc.os9.os9
-OCT-MCORE-2      ansible_host=10.81.1.12    ansible_network_os=dellemc.os9.os9
-# CL Rack
-#CL-SW-TORS      ansible-host=10.81.2.1  ansible_network_os=dellemc.os9.os9
-# OCT1 Rack
-OCT1-SW-TORS    ansible_host=10.81.2.11 ansible_network_os=dellemc.os9.os9
-OCT1-SW-MGMT    ansible_host=10.81.2.12 ansible_network_os=dellemc.os9.os9
-# OCT2 Rack
-OCT2-SW-TORS    ansible_host=10.81.2.21 ansible_network_os=dellemc.os9.os9
-OCT2-SW-MGMT    ansible_host=10.81.2.22 ansible_network_os=dellemc.os9.os9
-# OCT9 Rack
-OCT9-SW-TORS-A  ansible_host=10.81.2.91 ansible_network_os=dellemc.os9.os9
-OCT9-SW-TORS-B  ansible_host=10.81.2.92 ansible_network_os=dellemc.os9.os9
-OCT9-SW-HYB     ansible_host=10.81.2.95 ansible_network_os=dellemc.os9.os9
-# OCT10 Rack
-OCT10-SW-TORS-A  ansible_host=10.81.2.101 ansible_network_os=dellemc.os9.os9
-OCT10-SW-TORS-B  ansible_host=10.81.2.102 ansible_network_os=dellemc.os9.os9
-OCT10-SW-HYB     ansible_host=10.81.2.105 ansible_network_os=dellemc.os9.os9
-
 [moc]
 # MOC Core Switches
 MOC-CORE-1 ansible_host=10.80.1.1  ansible_network_os=dellemc.os9.os9
