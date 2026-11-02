@@ -343,7 +343,6 @@ interfaces:
       - 930
       - 931
       - 935
-      - 2076
       - 2304
       - 3801
     mode: "lacp"
@@ -371,7 +370,6 @@ interfaces:
       - 930
       - 931
       - 935
-      - 2076
       - 2304
       - 3801
     mode: "lacp"
@@ -389,9 +387,3 @@ interfaces:
   Vlan 935:
     state: "up"
     ip4: "10.82.1.2/20"
-  Vlan 2076:
-    state: "up"
-    ip4: "10.85.0.3/22"
-  Vlan 2176:
-    state: "up"
-    ip4: "10.30.9.102/24"

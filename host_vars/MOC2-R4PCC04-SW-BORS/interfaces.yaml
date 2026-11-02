@@ -4,14 +4,7 @@ interfaces:
       type: "quad"
   swp1s0:
     description: "MOC-R4PCC04U38"
-    state: "up"
-    portmode: "hybrid"
-    untagged: 2172
-    tagged:
-      - 2173
-    stp:
-      edgeport: true
-      disabled: true
+    state: "down"
   swp1s1:
     description: "MOC-R4PCC04U37"
     state: "down"

@@ -56,7 +56,6 @@ interfaces:
       - 623
       - 624:630
       - 911
-      - 2076
       - 3801
     stp:
       edgeport: true
@@ -75,7 +74,6 @@ interfaces:
       - 623
       - 624:630
       - 911
-      - 2076
       - 3801
     stp:
       edgeport: true
@@ -94,7 +92,6 @@ interfaces:
       - 623
       - 624:630
       - 911
-      - 2076
       - 3801
     stp:
       edgeport: true
@@ -375,7 +372,6 @@ interfaces:
       - 930
       - 931
       - 935
-      - 2076
       - 3801
     mode: "lacp"
     lacp-rate: "fast"
@@ -402,7 +398,6 @@ interfaces:
       - 930
       - 931
       - 935
-      - 2076
       - 3801
     mode: "lacp"
     lacp-rate: "fast"
@@ -419,9 +414,3 @@ interfaces:
   Vlan 935:
     state: "up"
     ip4: "10.82.1.1/20"
-  Vlan 2076:
-    state: "up"
-    ip4: "10.85.0.2/22"
-  Vlan 2176:
-    state: "up"
-    ip4: "10.30.9.101/24"
