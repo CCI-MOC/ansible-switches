@@ -198,17 +198,9 @@ interfaces:
   hundredGigE 1/25:
     state: "down"
   hundredGigE 1/26:
-    description: "OCT-CORE-1 Port 26"
-    state: "up"
-    mtu: 9216
+    state: "down"
   hundredGigE 1/27:
-    fanout:
-      type: "single"
-      speed: "40G"
-  fortyGigE 1/27/1:
-    description: "MOC Cisco ####"
-    state: "up"
-    mtu: 9216
+    state: "down"
   hundredGigE 1/28:
     state: "down"
   hundredGigE 1/29:
@@ -243,35 +235,6 @@ interfaces:
       - "hundredGigE 1/29"
       - "hundredGigE 1/30"
     mlag: "Port-channel 10"
-  Port-channel 11:
-    description: "MOC Cisco LAG"
-    state: "up"
-    mtu: 9216
-    tagged: "all"
-    portmode: "trunk"
-    lacp-rate: "fast"
-    lacp-members-active:
-      - "fortyGigE 1/27/1"
-    mlag: "Port-channel 11"
-    stp:
-      disabled: true
-      rootguard: true
-  Port-channel 20:
-    description: "Link to OCT-CORE-1 and OCT-CORE-2"
-    state: "up"
-    portmode: "trunk"
-    tagged:
-      - 204
-      - 931
-      - 935
-    mtu: 9216
-    lacp-rate: "fast"
-    lacp-members-active:
-      - "hundredGigE 1/26"
-    mlag: "Port-channel 20"
-    stp:
-      disabled: true
-      rootguard: true
   Port-channel 40:
     description: "R8PAC23-Uplink"
     state: "up"
