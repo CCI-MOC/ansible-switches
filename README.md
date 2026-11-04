@@ -1,4 +1,4 @@
-# Ansible Site for Managing MOC/OCT Switches
+# Ansible Site for Managing MOC Switches
 
 Ansible site for MOC switches, uses [cci_moc.stateful_switches](https://galaxy.ansible.com/ui/repo/published/cci_moc/stateful_switches/) for stateful configuration. This repository holds the inventory and the switch
 manifests.
@@ -26,6 +26,6 @@ Every switch that exists in the MOCA system exists in this ansible site's host f
 Network equipment addresses follow a common convention. Each list item represents one octet of an IPv4 address:
 
 * `10.`
-* `[80,81]` 80 for MOC/NERC, 81 for OCT
+* `80` for MOC
 * `[1,2]` 1 for core networking, 2 for rack networking
 * `10*<rack number> + unit number` Each rack gets its own unique number. For example, 3 switches in a rack might be `21`, `22`, and `23`
