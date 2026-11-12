@@ -57,8 +57,13 @@ interfaces:
     fanout:
       type: "dual"
   swp5s0:
-    description: "MOC-R4PCC02U32-1"
-    state: "down"
+    description: "MOC-R4PCC02U32-1 OAC BARE METAL 1"
+    state: "up"
+    portmode: "access"
+    untagged: 225
+    stp:
+      edgeport: true
+      disabled: true
   swp5s1:
     description: "MOC-R4PCC02U32-2"
     state: "down"

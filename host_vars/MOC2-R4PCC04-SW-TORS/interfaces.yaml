@@ -250,8 +250,13 @@ interfaces:
     fanout:
       type: "dual"
   swp24s0:
-    description: "MOC-R4PCC04U03-1"
-    state: "down"
+    description: "MOC-R4PCC04U03-1 OAC BARE METAL 2"
+    state: "up"
+    portmode: "access"
+    untagged: 225
+    stp:
+      edgeport: true
+      disabled: true
   swp24s1:
     description: "MOC-R4PCC04U03-2"
     state: "down"

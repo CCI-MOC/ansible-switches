@@ -141,6 +141,13 @@ vlans:
     fabrics:
       - moc
       - moc2
+  - id: 225
+    name: OAC-BARE-METAL-1
+    description: OAC Bare Metal VLAN
+    subnet4: "10.20.30.0/24"
+    fabrics:
+      - moc
+      - moc2
   - id: 240
     name: JONATHAN-NAT
     description: "NAT net for Jonathan student environment"
