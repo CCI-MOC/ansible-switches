@@ -197,8 +197,13 @@ interfaces:
       speed: "10G"
   TenGigabitEthernet 1/22/1:
     description: "U31-S3A-P1"
-    allowlist:
-      - "description"
+    state: "up"
+    mtu: 9216
+    portmode: "access"
+    untagged: 589
+    stp:
+      edgeport: true
+      bpguguard: true
   TenGigabitEthernet 1/22/2:
     description: "U31-S3B-P1"
     allowlist:
