@@ -179,6 +179,11 @@ interfaces:
     description: "DEV-SW-1 Port 1"
     state: "up"
     mtu: 9216
+    portmode: "trunk"
+    tagged:
+      - 914
+    stp:
+      disabled: true
   hundredGigE 1/18:
     state: "down"
   hundredGigE 1/19:
@@ -268,19 +273,6 @@ interfaces:
     lacp-members-active:
       - "hundredGigE 1/21"
     mlag: "Port-channel 50"
-  Port-channel 60:
-    description: "DEV-SW-1 uplink"
-    state: "up"
-    portmode: "trunk"
-    tagged:
-      - 914
-    mtu: 9216
-    stp:
-      disabled: true
-    lacp-rate: "fast"
-    lacp-members-active:
-      - "fortyGigE 1/17/1"
-    mlag: "Port-channel 60"
   Port-channel 100:
     description: "MOC-CORE-2 VLT LAG"
     state: "up"
@@ -325,13 +317,13 @@ interfaces:
       - 201
       - 204
       - 211:225
-      - 240
+      - 240:241
       - 277
       - 911
       - 912
       - 913
       - 914
-      - 918
+      - 918:919
       - 930
       - 931
       - 935
@@ -351,13 +343,13 @@ interfaces:
       - 201
       - 204
       - 211:225
-      - 240
+      - 240:241
       - 277
       - 911
       - 912
       - 913
       - 914
-      - 918
+      - 918:919
       - 930
       - 931
       - 935

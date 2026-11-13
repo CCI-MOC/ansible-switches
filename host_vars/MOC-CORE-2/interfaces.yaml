@@ -156,13 +156,7 @@ interfaces:
   hundredGigE 1/16:
     state: "down"
   hundredGigE 1/17:
-    fanout:
-      type: "single"
-      speed: "40G"
-  fortyGigE 1/17/1:
-    description: "DEV-SW-1 Port 2 (Inactive backup link)"
-    state: "up"
-    mtu: 9216
+    state: "down"
   hundredGigE 1/18:
     state: "down"
   hundredGigE 1/19:
@@ -296,13 +290,13 @@ interfaces:
       - 201
       - 204
       - 211:225
-      - 240
+      - 240:241
       - 277
       - 911
       - 912
       - 913
       - 914
-      - 918
+      - 918:919
       - 930
       - 931
       - 935
@@ -323,13 +317,13 @@ interfaces:
       - 201
       - 204
       - 211:225
-      - 240
+      - 240:241
       - 277
       - 911
       - 912
       - 913
       - 914
-      - 918
+      - 918:919
       - 930
       - 931
       - 935

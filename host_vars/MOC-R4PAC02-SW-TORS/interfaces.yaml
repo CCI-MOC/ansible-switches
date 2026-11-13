@@ -171,10 +171,22 @@ interfaces:
       bpduguard: true
   twentyFiveGigE 1/33:
     description: "MOC-AMDTESTGPU1-P1"
-    managed: true
+    state: "up"
+    mtu: 9216
+    portmode: "access"
+    untagged: 241
+    stp:
+      edgeport: true
+      bpduguard: true
   twentyFiveGigE 1/34:
-    description: "MOC-AMDTESTGPU1-P1"
-    managed: true
+    description: "MOC-AMDTESTGPU1-P2"
+    state: "up"
+    mtu: 9216
+    portmode: "access"
+    untagged: 241
+    stp:
+      edgeport: true
+      bpduguard: true
   twentyFiveGigE 1/35:
     state: "down"
   twentyFiveGigE 1/36:
