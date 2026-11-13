@@ -81,7 +81,7 @@ interfaces:
     description: "MOC-AMDTEST-U30"
     state: "up"
     portmode: "access"
-    untagged: 911
+    untagged: 919
     stp:
       edgeport: true
       bpduguard: true

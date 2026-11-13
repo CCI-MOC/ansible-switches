@@ -154,6 +154,12 @@ vlans:
     subnet4: "10.40.0.64/26"
     fabrics:
       - moc
+  - id: 241
+    name: SUMATRA-NAT
+    description: "NAT net for Sumatra nodes"
+    subnet4: "10.40.0.192/26"
+    fabrics:
+      - moc
   - id: 249
     name: CEPH-INTERNAL
     description: Ceph Cluster (internal)
@@ -1626,6 +1632,12 @@ vlans:
     name: MOCEXT-JONATHANAPPAVOO-MGMT
     description: Management net for Joanathan Appavoo student cluster
     subnet4: "10.40.0.0/26"
+    fabrics:
+      - moc
+  - id: 919
+    name: MOCEXT-SUMATRA-MGMT
+    description: Management net for Sumatra nodes
+    subnet4: "10.40.0.128/26"
     fabrics:
       - moc
   - id: 930
