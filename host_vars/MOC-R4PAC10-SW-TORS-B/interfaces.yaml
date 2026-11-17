@@ -293,21 +293,36 @@ interfaces:
       edgeport: true
       bpduguard: true
   TenGigabitEthernet 1/21/4:
-    description: "U31-S1D-P2"
-    allowlist:
-      - "description"
+    description: "U31-S1D-P2 Compliant Dev Infra Worker 1"
+    state: "up"
+    mtu: 9216
+    portmode: "access"
+    untagged: 2317
+    stp:
+      edgeport: true
+      bpduguard: true
   hundredGigE 1/22:
     fanout:
       type: "quad"
       speed: "10G"
   TenGigabitEthernet 1/22/1:
-    description: "U31-S3A-P2"
-    allowlist:
-      - "description"
+    description: "U31-S3A-P2 Compliant Dev Infra Worker 2"
+    state: "up"
+    mtu: 9216
+    portmode: "access"
+    untagged: 2317
+    stp:
+      edgeport: true
+      bpduguard: true
   TenGigabitEthernet 1/22/2:
-    description: "U31-S3B-P2"
-    allowlist:
-      - "description"
+    description: "U31-S3B-P2 Compliant Dev Infra Worker 3"
+    state: "up"
+    mtu: 9216
+    portmode: "access"
+    untagged: 2317
+    stp:
+      edgeport: true
+      bpduguard: true
   TenGigabitEthernet 1/22/3:
     description: "U31-S3C-P2"
     allowlist:
