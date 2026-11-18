@@ -50,6 +50,10 @@ MOC2-R4PCC02-SW-BORS ansible_host=10.80.2.92  ansible_network_os=nvidia.nvue ans
 MOC2-R4PCC04-SW-TORS ansible_host=10.80.2.101 ansible_network_os=nvidia.nvue ansible_connection=ansible.netcommon.libssh
 MOC2-R4PCC04-SW-BORS ansible_host=10.80.2.102 ansible_network_os=nvidia.nvue ansible_connection=ansible.netcommon.libssh
 #MOC2-R4PCC04-SW-MGMT ansible_host=10.80.2.105 ansible_network_os=picos.8
+# MOC2 R4PCC06
+MOC2-R4PCC06-SW-TORS-A ansible_host=10.80.2.131 ansible_network_os=cisco.nxos.nxos
+MOC2-R4PCC06-SW-TORS-B ansible_host=10.80.2.132 ansible_network_os=cisco.nxos.nxos
+MOC2-R4PCC06-SW-MGMT ansible_host=10.80.2.135 ansible_network_os=nvidia.nvue ansible_connection=ansible.netcommon.libssh
 
 [mocsecdata]
 MOCSEC-R4PAC06-SW-TORS-A ansible_host=10.6.1.1 ansible_network_os=dellemc.os9.os9
