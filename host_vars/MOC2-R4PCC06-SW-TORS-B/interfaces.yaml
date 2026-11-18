@@ -1,0 +1,287 @@
+interfaces:
+  Ethernet1/1:
+    fanout:
+      type: "quad"
+      speed: "10g"
+  Ethernet1/1/1:
+    enabled: true
+    description: "U01-NODE01-B"
+  Ethernet1/1/2:
+    enabled: true
+    description: "U01-NODE02-B"
+  Ethernet1/1/3:
+    enabled: true
+    description: "U01-NODE03-B"
+  Ethernet1/1/4:
+    enabled: true
+    description: "U01-NODE04-B"
+  Ethernet1/2:
+    fanout:
+      type: "quad"
+      speed: "10g"
+  Ethernet1/2/1:
+    enabled: true
+    description: "U03-NODE01-B"
+  Ethernet1/2/2:
+    enabled: true
+    description: "U03-NODE02-B"
+  Ethernet1/2/3:
+    enabled: true
+    description: "U03-NODE03-B"
+  Ethernet1/2/4:
+    enabled: true
+    description: "U03-NODE04-B"
+  Ethernet1/3:
+    fanout:
+      type: "quad"
+      speed: "10g"
+  Ethernet1/3/1:
+    enabled: true
+    description: "U05-NODE01-B"
+  Ethernet1/3/2:
+    enabled: true
+    description: "U05-NODE02-B"
+  Ethernet1/3/3:
+    enabled: true
+    description: "U05-NODE03-B"
+  Ethernet1/3/4:
+    enabled: true
+    description: "U05-NODE04-B"
+  Ethernet1/4:
+    fanout:
+      type: "quad"
+      speed: "10g"
+  Ethernet1/4/1:
+    enabled: true
+    description: "U07-NODE01-B"
+  Ethernet1/4/2:
+    enabled: true
+    description: "U07-NODE02-B"
+  Ethernet1/4/3:
+    enabled: true
+    description: "U07-NODE03-B"
+  Ethernet1/4/4:
+    enabled: true
+    description: "U07-NODE04-B"
+  Ethernet1/5:
+    fanout:
+      type: "quad"
+      speed: "10g"
+  Ethernet1/5/1:
+    enabled: true
+    description: "U09-NODE01-B"
+  Ethernet1/5/2:
+    enabled: true
+    description: "U09-NODE02-B"
+  Ethernet1/5/3:
+    enabled: true
+    description: "U09-NODE03-B"
+  Ethernet1/5/4:
+    enabled: true
+    description: "U09-NODE04-B"
+  Ethernet1/6:
+    fanout:
+      type: "quad"
+      speed: "10g"
+  Ethernet1/6/1:
+    enabled: true
+    description: "U11-NODE01-B"
+  Ethernet1/6/2:
+    enabled: true
+    description: "U11-NODE02-B"
+  Ethernet1/6/3:
+    enabled: true
+    description: "U11-NODE03-B"
+  Ethernet1/6/4:
+    enabled: true
+    description: "U11-NODE04-B"
+  Ethernet1/7:
+    fanout:
+      type: "quad"
+      speed: "10g"
+  Ethernet1/7/1:
+    enabled: true
+    description: "U13-NODE01-B"
+  Ethernet1/7/2:
+    enabled: true
+    description: "U13-NODE02-B"
+  Ethernet1/7/3:
+    enabled: true
+    description: "U13-NODE03-B"
+  Ethernet1/7/4:
+    enabled: true
+    description: "U13-NODE04-B"
+  Ethernet1/8:
+    fanout:
+      type: "quad"
+      speed: "10g"
+  Ethernet1/8/1:
+    enabled: true
+    description: "U15-NODE01-B"
+  Ethernet1/8/2:
+    enabled: true
+    description: "U15-NODE02-B"
+  Ethernet1/8/3:
+    enabled: true
+    description: "U15-NODE03-B"
+  Ethernet1/8/4:
+    enabled: true
+    description: "U15-NODE04-B"
+  Ethernet1/9:
+    fanout:
+      type: "quad"
+      speed: "10g"
+  Ethernet1/9/1:
+    enabled: true
+    description: "U17-NODE01-B"
+  Ethernet1/9/2:
+    enabled: true
+    description: "U17-NODE02-B"
+  Ethernet1/9/3:
+    enabled: true
+    description: "U17-NODE03-B"
+  Ethernet1/9/4:
+    enabled: true
+    description: "U17-NODE04-B"
+  Ethernet1/10:
+    fanout:
+      type: "quad"
+      speed: "10g"
+  Ethernet1/10/1:
+    enabled: true
+    description: "U19-NODE01-B"
+  Ethernet1/10/2:
+    enabled: true
+    description: "U19-NODE02-B"
+  Ethernet1/10/3:
+    enabled: true
+    description: "U19-NODE03-B"
+  Ethernet1/10/4:
+    enabled: true
+    description: "U19-NODE04-B"
+  Ethernet1/11:
+    fanout:
+      type: "quad"
+      speed: "10g"
+  Ethernet1/11/1:
+    enabled: true
+    description: "U21-NODE01-B"
+  Ethernet1/11/2:
+    enabled: true
+    description: "U21-NODE02-B"
+  Ethernet1/11/3:
+    enabled: true
+    description: "U21-NODE03-B"
+  Ethernet1/11/4:
+    enabled: true
+    description: "U21-NODE04-B"
+  Ethernet1/12:
+    fanout:
+      type: "quad"
+      speed: "10g"
+  Ethernet1/12/1:
+    enabled: true
+    description: "U23-NODE01-B"
+  Ethernet1/12/2:
+    enabled: true
+    description: "U23-NODE02-B"
+  Ethernet1/12/3:
+    enabled: true
+    description: "U23-NODE03-B"
+  Ethernet1/12/4:
+    enabled: true
+    description: "U23-NODE04-B"
+  Ethernet1/13:
+    fanout:
+      type: "quad"
+      speed: "10g"
+  Ethernet1/13/1:
+    enabled: true
+    description: "U25-NODE01-B"
+  Ethernet1/13/2:
+    enabled: true
+    description: "U25-NODE02-B"
+  Ethernet1/13/3:
+    enabled: true
+    description: "U25-NODE03-B"
+  Ethernet1/13/4:
+    enabled: true
+    description: "U25-NODE04-B"
+  Ethernet1/14:
+    enabled: false
+  Ethernet1/15:
+    enabled: false
+  Ethernet1/16:
+    enabled: false
+  Ethernet1/17:
+    fanout:
+      type: "quad"
+      speed: "10g"
+  Ethernet1/17/1:
+    enabled: true
+    description: "U32(A100)-B"
+  Ethernet1/17/2:
+    enabled: true
+    description: "U34(A100)-B"
+  Ethernet1/17/3:
+    enabled: false
+  Ethernet1/17/4:
+    enabled: false
+  Ethernet1/18:
+    enabled: false
+  Ethernet1/19:
+    enabled: true
+    description: "U32(A100)-100G-B"
+  Ethernet1/20:
+    enabled: true
+    description: "U34(A100)-100G-B"
+  Ethernet1/21:
+    enabled: false
+  Ethernet1/22:
+    enabled: false
+  Ethernet1/23:
+    enabled: false
+  Ethernet1/24:
+    enabled: false
+  Ethernet1/25:
+    enabled: false
+  Ethernet1/26:
+    enabled: false
+  Ethernet1/27:
+    enabled: false
+  Ethernet1/28:
+    enabled: false
+  Ethernet1/29:
+    enabled: false
+  Ethernet1/30:
+    enabled: false
+  Ethernet1/31:
+    enabled: false
+  Ethernet1/32:
+    enabled: false
+  Ethernet1/33:
+    enabled: false
+  Ethernet1/34:
+    enabled: true
+    managed: true
+  Ethernet1/35:
+    enabled: true
+    description: "MOC2-R4PCC06-SW-TORS-A Port 35"
+    mtu: 9216
+  Ethernet1/36:
+    enabled: true
+    description: "MOC2-R4PCC06-SW-TORS-A Port 36"
+    mtu: 9216
+  port-channel1:
+    enabled: true
+    description: "VPC peer-link"
+    portmode: trunk
+    mode: "lacp"
+    managed: true
+    lacp-rate: "fast"
+    lacp-members-active:
+      - "Ethernet1/35"
+      - "Ethernet1/36"
+  Vlan930:
+    enabled: true
+    ip4: "10.80.2.132/20"

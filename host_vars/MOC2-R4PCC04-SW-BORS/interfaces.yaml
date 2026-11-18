@@ -144,7 +144,10 @@ interfaces:
   swp28:
     state: "down"
   swp29:
-    state: "down"
+    description: "R4PCC06-TEMP-UPLINK"
+    state: "up"
+    portmode: "trunk"
+    tagged: "all"
   swp30:
     state: "down"
   swp31:

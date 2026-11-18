@@ -1,0 +1,205 @@
+interfaces:
+  swp1:
+    description: "U01"
+    state: "up"
+    portmode: "access"
+    untagged: 911
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp2:
+    description: "U03"
+    state: "up"
+    portmode: "access"
+    untagged: 911
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp3:
+    description: "U05"
+    state: "up"
+    portmode: "access"
+    untagged: 911
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp4:
+    description: "U07"
+    state: "up"
+    portmode: "access"
+    untagged: 911
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp5:
+    description: "U09"
+    state: "up"
+    portmode: "access"
+    untagged: 911
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp6:
+    description: "U11"
+    state: "up"
+    portmode: "access"
+    untagged: 911
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp7:
+    description: "U13"
+    state: "up"
+    portmode: "access"
+    untagged: 911
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp8:
+    description: "U15"
+    state: "up"
+    portmode: "access"
+    untagged: 911
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp9:
+    description: "U17"
+    state: "up"
+    portmode: "access"
+    untagged: 911
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp10:
+    description: "U19"
+    state: "up"
+    portmode: "access"
+    untagged: 911
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp11:
+    description: "U21"
+    state: "up"
+    portmode: "access"
+    untagged: 911
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp12:
+    description: "U23"
+    state: "up"
+    portmode: "access"
+    untagged: 911
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp13:
+    description: "U25"
+    state: "up"
+    portmode: "access"
+    untagged: 911
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp14:
+    state: "down"
+  swp15:
+    state: "down"
+  swp16:
+    state: "down"
+  swp17:
+    description: "U32(A100)"
+    state: "up"
+    portmode: "access"
+    untagged: 911
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp18:
+    description: "U34(A100)"
+    state: "up"
+    portmode: "access"
+    untagged: 911
+    stp:
+      bpduguard: true
+      edgeport: true
+  swp19:
+    state: "down"
+  swp20:
+    state: "down"
+  swp21:
+    state: "down"
+  swp22:
+    state: "down"
+  swp23:
+    state: "down"
+  swp24:
+    state: "down"
+  swp25:
+    state: "down"
+  swp26:
+    state: "down"
+  swp27:
+    state: "down"
+  swp28:
+    state: "down"
+  swp29:
+    state: "down"
+  swp30:
+    state: "down"
+  swp31:
+    state: "down"
+  swp32:
+    state: "down"
+  swp33:
+    state: "down"
+  swp34:
+    state: "down"
+  swp35:
+    state: "down"
+  swp36:
+    state: "down"
+  swp37:
+    state: "down"
+  swp38:
+    state: "down"
+  swp39:
+    state: "down"
+  swp40:
+    state: "down"
+  swp41:
+    state: "down"
+  swp42:
+    state: "down"
+  swp43:
+    state: "down"
+  swp44:
+    state: "down"
+  swp45:
+    state: "down"
+  swp46:
+    state: "down"
+  swp47:
+    state: "down"
+  swp48:
+    state: "down"
+  swp49:
+    state: "up"
+    description: "TEMP-UPLINK"
+    mtu: 9216
+    fec: rs
+    autoneg: false
+    speed: "100G"
+    portmode: "trunk"
+    tagged: "all"
+  swp50:
+    state: "down"
+  swp51:
+    state: "down"
+  swp52:
+    state: "down"
+  vlan930:
+    ip4: "10.80.2.135/20"
+    gateway: "10.80.0.1"
