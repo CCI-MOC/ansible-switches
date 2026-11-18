@@ -5,6 +5,18 @@ vlans:
     subnet4: "129.10.5.0/24"
     fabrics:
       - moc
+  - id: 128
+    name: BU-PUBLIC
+    description: BU public subnet MOC2
+    subnet4: "204.8.159.0/24"
+    fabrics:
+      - moc2
+  - id: 200
+    name: MOC2-MGMT
+    description: MOC2 management
+    subnet4: "10.90.0.0/20"
+    fabrics:
+      - moc2
   - id: 201
     name: MOC-INFRA-OPENSHIFT
     description: MOC infra Openshift infra network
