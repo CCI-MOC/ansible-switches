@@ -5,7 +5,9 @@ interfaces:
       speed: "10g"
   Ethernet1/1/1:
     enabled: true
-    description: "MOC-R4PCC06U01-N01-A"
+    description: "MOC-R4PCC06U01-N01-A FIPS build host"
+    portmode: "access"
+    untagged: 911
   Ethernet1/1/2:
     enabled: true
     description: "MOC-R4PCC06U01-N02-A"
