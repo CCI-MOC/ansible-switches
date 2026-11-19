@@ -154,18 +154,18 @@ interfaces:
     fanout:
       type: "dual"
   swp15s0:
-    description: "MOC-R4PCC02U16-1"
+    description: "MOC-R4PCC02U16-1 Compliant Dev Workload0"
     state: "up"
     portmode: "access"
-    untagged: 218
+    untagged: 220
     stp:
       edgeport: true
       disabled: true
   swp15s1:
-    description: "MOC-R4PCC02U16-2"
+    description: "MOC-R4PCC02U16-2 Compliant Dev Workload0"
     state: "up"
     portmode: "access"
-    untagged: 2316
+    untagged: 2318
     stp:
       edgeport: true
       disabled: true
@@ -173,18 +173,18 @@ interfaces:
     fanout:
       type: "dual"
   swp16s0:
-    description: "MOC-R4PCC02U15-1"
+    description: "MOC-R4PCC02U15-1 Compliant Dev Workload0"
     state: "up"
     portmode: "access"
-    untagged: 218
+    untagged: 220
     stp:
       edgeport: true
       disabled: true
   swp16s1:
-    description: "MOC-R4PCC02U15-2"
+    description: "MOC-R4PCC02U15-2 Compliant Dev Workload0"
     state: "up"
     portmode: "access"
-    untagged: 2316
+    untagged: 2318
     stp:
       edgeport: true
       disabled: true
