@@ -1,6 +1,6 @@
 interfaces:
   swp1:
-    description: "U01"
+    description: "MOC-R4PCC06U01"
     state: "up"
     portmode: "access"
     untagged: 911
@@ -8,7 +8,7 @@ interfaces:
       bpduguard: true
       edgeport: true
   swp2:
-    description: "U03"
+    description: "MOC-R4PCC06U03"
     state: "up"
     portmode: "access"
     untagged: 911
@@ -16,7 +16,7 @@ interfaces:
       bpduguard: true
       edgeport: true
   swp3:
-    description: "U05"
+    description: "MOC-R4PCC06U05"
     state: "up"
     portmode: "access"
     untagged: 911
@@ -24,7 +24,7 @@ interfaces:
       bpduguard: true
       edgeport: true
   swp4:
-    description: "U07"
+    description: "MOC-R4PCC06U07"
     state: "up"
     portmode: "access"
     untagged: 911
@@ -32,7 +32,7 @@ interfaces:
       bpduguard: true
       edgeport: true
   swp5:
-    description: "U09"
+    description: "MOC-R4PCC06U09"
     state: "up"
     portmode: "access"
     untagged: 911
@@ -40,7 +40,7 @@ interfaces:
       bpduguard: true
       edgeport: true
   swp6:
-    description: "U11"
+    description: "MOC-R4PCC06U11"
     state: "up"
     portmode: "access"
     untagged: 911
@@ -48,7 +48,7 @@ interfaces:
       bpduguard: true
       edgeport: true
   swp7:
-    description: "U13"
+    description: "MOC-R4PCC06U13"
     state: "up"
     portmode: "access"
     untagged: 911
@@ -56,7 +56,7 @@ interfaces:
       bpduguard: true
       edgeport: true
   swp8:
-    description: "U15"
+    description: "MOC-R4PCC06U15"
     state: "up"
     portmode: "access"
     untagged: 911
@@ -64,7 +64,7 @@ interfaces:
       bpduguard: true
       edgeport: true
   swp9:
-    description: "U17"
+    description: "MOC-R4PCC06U17"
     state: "up"
     portmode: "access"
     untagged: 911
@@ -72,7 +72,7 @@ interfaces:
       bpduguard: true
       edgeport: true
   swp10:
-    description: "U19"
+    description: "MOC-R4PCC06U19"
     state: "up"
     portmode: "access"
     untagged: 911
@@ -80,7 +80,7 @@ interfaces:
       bpduguard: true
       edgeport: true
   swp11:
-    description: "U21"
+    description: "MOC-R4PCC06U21"
     state: "up"
     portmode: "access"
     untagged: 911
@@ -88,7 +88,7 @@ interfaces:
       bpduguard: true
       edgeport: true
   swp12:
-    description: "U23"
+    description: "MOC-R4PCC06U23"
     state: "up"
     portmode: "access"
     untagged: 911
@@ -96,7 +96,7 @@ interfaces:
       bpduguard: true
       edgeport: true
   swp13:
-    description: "U25"
+    description: "MOC-R4PCC06U25"
     state: "up"
     portmode: "access"
     untagged: 911
@@ -110,7 +110,7 @@ interfaces:
   swp16:
     state: "down"
   swp17:
-    description: "U32(A100)"
+    description: "MOC-R4PCC06U32"
     state: "up"
     portmode: "access"
     untagged: 911
@@ -118,7 +118,7 @@ interfaces:
       bpduguard: true
       edgeport: true
   swp18:
-    description: "U34(A100)"
+    description: "MOC-R4PCC06U34"
     state: "up"
     portmode: "access"
     untagged: 911
