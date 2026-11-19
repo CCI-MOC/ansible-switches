@@ -220,11 +220,21 @@ interfaces:
     fanout:
       type: "dual"
   swp19s0:
-    description: "MOC-R4PCC02U10-1"
-    state: "down"
+    description: "MOC-R4PCC02U10-1 BU IST Demo Workload"
+    state: "up"
+    portmode: "access"
+    untagged: 224
+    stp:
+      edgeport: true
+      disabled: true
   swp19s1:
-    description: "MOC-R4PCC02U10-2"
-    state: "down"
+    description: "MOC-R4PCC02U10-2 BU IST Demo Workload"
+    state: "up"
+    portmode: "access"
+    untagged: 2322
+    stp:
+      edgeport: true
+      disabled: true
   swp20:
     fanout:
       type: "dual"
