@@ -5,208 +5,208 @@ interfaces:
       speed: "10g"
   Ethernet1/1/1:
     enabled: true
-    description: "U01-NODE01-A"
+    description: "MOC-R4PCC06U01-N01-A"
   Ethernet1/1/2:
     enabled: true
-    description: "U01-NODE02-A"
+    description: "MOC-R4PCC06U01-N02-A"
   Ethernet1/1/3:
     enabled: true
-    description: "U01-NODE03-A"
+    description: "MOC-R4PCC06U01-N03-A"
   Ethernet1/1/4:
     enabled: true
-    description: "U01-NODE04-A"
+    description: "MOC-R4PCC06U01-N04-A"
   Ethernet1/2:
     fanout:
       type: "quad"
       speed: "10g"
   Ethernet1/2/1:
     enabled: true
-    description: "U03-NODE01-A"
+    description: "MOC-R4PCC06U03-N01-A"
   Ethernet1/2/2:
     enabled: true
-    description: "U03-NODE02-A"
+    description: "MOC-R4PCC06U03-N02-A"
   Ethernet1/2/3:
     enabled: true
-    description: "U03-NODE03-A"
+    description: "MOC-R4PCC06U03-N03-A"
   Ethernet1/2/4:
     enabled: true
-    description: "U03-NODE04-A"
+    description: "MOC-R4PCC06U03-N04-A"
   Ethernet1/3:
     fanout:
       type: "quad"
       speed: "10g"
   Ethernet1/3/1:
     enabled: true
-    description: "U05-NODE01-A"
+    description: "MOC-R4PCC06U05-N01-A"
   Ethernet1/3/2:
     enabled: true
-    description: "U05-NODE02-A"
+    description: "MOC-R4PCC06U05-N02-A"
   Ethernet1/3/3:
     enabled: true
-    description: "U05-NODE03-A"
+    description: "MOC-R4PCC06U05-N03-A"
   Ethernet1/3/4:
     enabled: true
-    description: "U05-NODE04-A"
+    description: "MOC-R4PCC06U05-N04-A"
   Ethernet1/4:
     fanout:
       type: "quad"
       speed: "10g"
   Ethernet1/4/1:
     enabled: true
-    description: "U07-NODE01-A"
+    description: "MOC-R4PCC06U07-N01-A"
   Ethernet1/4/2:
     enabled: true
-    description: "U07-NODE02-A"
+    description: "MOC-R4PCC06U07-N02-A"
   Ethernet1/4/3:
     enabled: true
-    description: "U07-NODE03-A"
+    description: "MOC-R4PCC06U07-N03-A"
   Ethernet1/4/4:
     enabled: true
-    description: "U07-NODE04-A"
+    description: "MOC-R4PCC06U07-N04-A"
   Ethernet1/5:
     fanout:
       type: "quad"
       speed: "10g"
   Ethernet1/5/1:
     enabled: true
-    description: "U09-NODE01-A"
+    description: "MOC-R4PCC06U09-N01-A"
   Ethernet1/5/2:
     enabled: true
-    description: "U09-NODE02-A"
+    description: "MOC-R4PCC06U09-N02-A"
   Ethernet1/5/3:
     enabled: true
-    description: "U09-NODE03-A"
+    description: "MOC-R4PCC06U09-N03-A"
   Ethernet1/5/4:
     enabled: true
-    description: "U09-NODE04-A"
+    description: "MOC-R4PCC06U09-N04-A"
   Ethernet1/6:
     fanout:
       type: "quad"
       speed: "10g"
   Ethernet1/6/1:
     enabled: true
-    description: "U11-NODE01-A"
+    description: "MOC-R4PCC06U11-N01-A"
   Ethernet1/6/2:
     enabled: true
-    description: "U11-NODE02-A"
+    description: "MOC-R4PCC06U11-N02-A"
   Ethernet1/6/3:
     enabled: true
-    description: "U11-NODE03-A"
+    description: "MOC-R4PCC06U11-N03-A"
   Ethernet1/6/4:
     enabled: true
-    description: "U11-NODE04-A"
+    description: "MOC-R4PCC06U11-N04-A"
   Ethernet1/7:
     fanout:
       type: "quad"
       speed: "10g"
   Ethernet1/7/1:
     enabled: true
-    description: "U13-NODE01-A"
+    description: "MOC-R4PCC06U13-N01-A"
   Ethernet1/7/2:
     enabled: true
-    description: "U13-NODE02-A"
+    description: "MOC-R4PCC06U13-N02-A"
   Ethernet1/7/3:
     enabled: true
-    description: "U13-NODE03-A"
+    description: "MOC-R4PCC06U13-N03-A"
   Ethernet1/7/4:
     enabled: true
-    description: "U13-NODE04-A"
+    description: "MOC-R4PCC06U13-N04-A"
   Ethernet1/8:
     fanout:
       type: "quad"
       speed: "10g"
   Ethernet1/8/1:
     enabled: true
-    description: "U15-NODE01-A"
+    description: "MOC-R4PCC06U15-N01-A"
   Ethernet1/8/2:
     enabled: true
-    description: "U15-NODE02-A"
+    description: "MOC-R4PCC06U15-N02-A"
   Ethernet1/8/3:
     enabled: true
-    description: "U15-NODE03-A"
+    description: "MOC-R4PCC06U15-N03-A"
   Ethernet1/8/4:
     enabled: true
-    description: "U15-NODE04-A"
+    description: "MOC-R4PCC06U15-N04-A"
   Ethernet1/9:
     fanout:
       type: "quad"
       speed: "10g"
   Ethernet1/9/1:
     enabled: true
-    description: "U17-NODE01-A"
+    description: "MOC-R4PCC06U17-N01-A"
   Ethernet1/9/2:
     enabled: true
-    description: "U17-NODE02-A"
+    description: "MOC-R4PCC06U17-N02-A"
   Ethernet1/9/3:
     enabled: true
-    description: "U17-NODE03-A"
+    description: "MOC-R4PCC06U17-N03-A"
   Ethernet1/9/4:
     enabled: true
-    description: "U17-NODE04-A"
+    description: "MOC-R4PCC06U17-N04-A"
   Ethernet1/10:
     fanout:
       type: "quad"
       speed: "10g"
   Ethernet1/10/1:
     enabled: true
-    description: "U19-NODE01-A"
+    description: "MOC-R4PCC06U19-N01-A"
   Ethernet1/10/2:
     enabled: true
-    description: "U19-NODE02-A"
+    description: "MOC-R4PCC06U19-N02-A"
   Ethernet1/10/3:
     enabled: true
-    description: "U19-NODE03-A"
+    description: "MOC-R4PCC06U19-N03-A"
   Ethernet1/10/4:
     enabled: true
-    description: "U19-NODE04-A"
+    description: "MOC-R4PCC06U19-N04-A"
   Ethernet1/11:
     fanout:
       type: "quad"
       speed: "10g"
   Ethernet1/11/1:
     enabled: true
-    description: "U21-NODE01-A"
+    description: "MOC-R4PCC06U21-N01-A"
   Ethernet1/11/2:
     enabled: true
-    description: "U21-NODE02-A"
+    description: "MOC-R4PCC06U21-N02-A"
   Ethernet1/11/3:
     enabled: true
-    description: "U21-NODE03-A"
+    description: "MOC-R4PCC06U21-N03-A"
   Ethernet1/11/4:
     enabled: true
-    description: "U21-NODE04-A"
+    description: "MOC-R4PCC06U21-N04-A"
   Ethernet1/12:
     fanout:
       type: "quad"
       speed: "10g"
   Ethernet1/12/1:
     enabled: true
-    description: "U23-NODE01-A"
+    description: "MOC-R4PCC06U23-N01-A"
   Ethernet1/12/2:
     enabled: true
-    description: "U23-NODE02-A"
+    description: "MOC-R4PCC06U23-N02-A"
   Ethernet1/12/3:
     enabled: true
-    description: "U23-NODE03-A"
+    description: "MOC-R4PCC06U23-N03-A"
   Ethernet1/12/4:
     enabled: true
-    description: "U23-NODE04-A"
+    description: "MOC-R4PCC06U23-N04-A"
   Ethernet1/13:
     fanout:
       type: "quad"
       speed: "10g"
   Ethernet1/13/1:
     enabled: true
-    description: "U25-NODE01-A"
+    description: "MOC-R4PCC06U25-N01-A"
   Ethernet1/13/2:
     enabled: true
-    description: "U25-NODE02-A"
+    description: "MOC-R4PCC06U25-N02-A"
   Ethernet1/13/3:
     enabled: true
-    description: "U25-NODE03-A"
+    description: "MOC-R4PCC06U25-N03-A"
   Ethernet1/13/4:
     enabled: true
-    description: "U25-NODE04-A"
+    description: "MOC-R4PCC06U25-N04-A"
   Ethernet1/14:
     enabled: false
   Ethernet1/15:
@@ -219,10 +219,10 @@ interfaces:
       speed: "10g"
   Ethernet1/17/1:
     enabled: true
-    description: "U32(A100)-A"
+    description: "MOC-R4PCC06U32-A"
   Ethernet1/17/2:
     enabled: true
-    description: "U34(A100)-A"
+    description: "MOC-R4PCC06U34-A"
   Ethernet1/17/3:
     enabled: false
   Ethernet1/17/4:
@@ -231,10 +231,10 @@ interfaces:
     enabled: false
   Ethernet1/19:
     enabled: true
-    description: "U32(A100)-100G-A"
+    description: "MOC-R4PCC06U32-100G-A"
   Ethernet1/20:
     enabled: true
-    description: "U34(A100)-100G-A"
+    description: "MOC-R4PCC06U34-100G-A"
   Ethernet1/21:
     enabled: false
   Ethernet1/22:
