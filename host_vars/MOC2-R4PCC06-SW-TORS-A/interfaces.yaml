@@ -10,7 +10,9 @@ interfaces:
     untagged: 911
   Ethernet1/1/2:
     enabled: true
-    description: "MOC-R4PCC06U01-N02-A"
+    description: "MOC-R4PCC06U01-N02-A BU-IST-DEMO sd530 discovery image testing"
+    portmode: "access"
+    untagged: 223
   Ethernet1/1/3:
     enabled: true
     description: "MOC-R4PCC06U01-N03-A"
