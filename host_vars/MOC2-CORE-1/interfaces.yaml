@@ -1,10 +1,16 @@
 interfaces:
   swp1:
-    description: "MOC2-RT-1 Port 17"
+    fanout:
+      type: "dual"
+      speed: "100G"
+  swp1s0:
+    description: "MOC2-RT-1 Port 9"
+    state: "up"
+  swp1s1:
+    description: "MOC2-RT-2 Port 9"
     state: "up"
   swp2:
-    description: "MOC2-RT-2 Port 17"
-    state: "up"
+    state: "down"
   swp3:
     description: "MOC-CORE-1 Port 21 (TEMP MOC1 UPLINK)"
     state: "up"
@@ -147,8 +153,8 @@ interfaces:
     tagged: "all"
     lacp-rate: "fast"
     lacp-members-active:
-      - "swp1"
-      - "swp2"
+      - "swp1s0"
+      - "swp1s1"
     mlag: "bond1"
   bond2:
     description: "MOC-CORE Uplink (TEMP MOC1 UPLINK)"
