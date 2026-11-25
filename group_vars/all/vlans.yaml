@@ -160,6 +160,14 @@ vlans:
     fabrics:
       - moc
       - moc2
+  - id: 226
+    name: COMPLIANT-PROD-INFRA
+    description: Compliant Prod Infra Cluster
+    subnet4: "10.20.32.0/23"
+    fabrics:
+      - moc
+      - moc2
+      - mocsecdata
   - id: 240
     name: JONATHAN-NAT
     description: "NAT net for Jonathan student environment"
@@ -1838,6 +1846,14 @@ vlans:
     name: PureStorage-BU-IST-DEMO-WORKLOAD
     description: PureStorage BU-IST-DEMO 13
     subnet4: "10.9.16.0/24"
+    fabrics:
+      - moc
+      - moc2
+      - mocsecdata
+  - id: 2323
+    name: PureStorage-COMPLIANT-PROD-INFRA
+    description: PureStorage COMPLIANT 14
+    subnet4: "10.9.17.0/24"
     fabrics:
       - moc
       - moc2

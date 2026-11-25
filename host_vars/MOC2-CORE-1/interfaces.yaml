@@ -54,20 +54,35 @@ interfaces:
       type: "quad"
       speed: "25G"
   swp6s0:
-    description: "R440-U18-1"
-    state: "down"
+    description: "R440-U18-1 Compliant Prod Infra Control 1"
+    state: "up"
     speed: "10G"
     autoneg: false
+    portmode: "access"
+    untagged: 226
+    stp:
+      edgeport: true
+      bpduguard: true
   swp6s1:
-    description: "R440-U19-1"
-    state: "down"
+    description: "R440-U19-1 Compliant Prod Infra Control 2"
+    state: "up"
     speed: "10G"
     autoneg: false
+    portmode: "access"
+    untagged: 226
+    stp:
+      edgeport: true
+      bpduguard: true
   swp6s2:
-    description: "R440-U20-1"
-    state: "down"
+    description: "R440-U20-1 Compliant Prod Infra Control 3"
+    state: "up"
     speed: "10G"
     autoneg: false
+    portmode: "access"
+    untagged: 226
+    stp:
+      edgeport: true
+      bpduguard: true
   swp6s3:
     description: "R440-U21-1"
     state: "down"
@@ -157,13 +172,13 @@ interfaces:
     tagged:
       - 204
       - 212:214
-      - 216:225
+      - 216:226
       - 568
       - 911:912
       - 916:917
       - 930
       - 2304:2307
-      - 2310:2322
+      - 2310:2323
     lacp-rate: "fast"
     lacp-members-active:
       - "swp3"
@@ -207,7 +222,7 @@ interfaces:
     untagged: 2304
     tagged:
       - 2305:2307
-      - 2310:2322
+      - 2310:2323
     lacp-members-active:
       - "swp25"
       - "swp26"
